@@ -1,0 +1,132 @@
+---
+title: "Systems Biomedicine - Try out ImmCellTyper"
+output: html_notebook
+---
+
+# Install ImmCellTyper
+
+
+```{r}
+if(!require(devtools, quietly = TRUE))
+  install.packages("devtools")
+  BiocManager::install(c("CATALYST", "flowCore"))
+  devtools::install_github("JinmiaoChenLab/Rphenograph")
+  devtools::install_github("JingAnyaSun/ImmCellTyper")
+  devtools::install_github("saeyslab/CytoNorm")
+  devtools::install_github('mtrussart/CytofRUV')
+```
+
+# Load dataset and libraries
+
+```{r}
+library(ImmCellTyper)
+library(CATALYST)
+library(readxl)
+library(flowCore)
+library(SingleCellExperiment)
+library(cowplot)
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(caret)
+library(rstatix)
+library(Rphenograph)
+library(readr)
+library(RColorBrewer)
+library(igraph)
+library(pheatmap)
+library(CytofRUV)
+```
+
+
+
+```{r}
+data <- readRDS("/Users/lisaspindler/Downloads/sce")
+metadata <- "metadata.csv"
+panel <- "panel.csv"
+fcs_dir <- "fcs_files"
+
+#import user-defined types file
+class_dir <- 'classification.csv'
+types <- read_csv(class_dir)
+#check the behavior of specific marker distribution  
+displayMarkers(sce,types,color_by='sample_id',ncol=3)
+#perform binary classification
+exprs <-t(assay(sce, 'exprs'))
+binary.results <- binaryClass(exprs, class_dir)
+sce$cluster_id <- unlist(binary.results)
+#check binary classification results of all cells
+plotbcFreq(sce,binary.results)
+plotbcHeatmap(sce,binary.results,remove.unclass=F)
+#plot DR colored by binary classification results
+set.seed(1234)
+sce <- runDR(sce, dr = "UMAP", cells = 2000, features = "type")
+sce <- runDR(sce, dr = "TSNE", cells = 2000, features = "type")
+plotDR(sce, "UMAP", color_by = "cluster_id")
+plotDR(sce, "TSNE", color_by = "cluster_id")
+
+```
+
+
+
+```{r}
+#plot DR facet by 'condition'
+plotDR(sce, "UMAP", color_by = "cluster_id",facet_by='condition')
+plotDR(sce, "TSNE", color_by = "cluster_id",facet_by='condition')
+#plot DR facet by 'outcome'
+#plotDR(sce, "UMAP", color_by = "cluster_id",facet_by='outcome')
+#plotDR(sce, "TSNE", color_by = "cluster_id",facet_by='outcome')
+#plot stacked histogram and boxplot comparing different study groups
+plotFreq(sce,type='stacked',group_by='condition')
+plotFreq(sce,type='box',group_by='condition')
+#plotFreq(sce,type='stacked',group_by='outcome')
+#plotFreq(sce,type='box',group_by='outcome')
+#plot state marker expression in each cluster
+plotStateMarkerExprs(sce,group='condition')
+#plotStateMarkerExprs(sce,group='outcome')
+```
+
+
+
+```{r}
+#subset CD4 T cell population for in-depth interrogation
+CD4_sce<-extractCluster(sce,cluster='B-Zellen')
+# run clustering algorithm Phenograph, and assign it to a new object named CD4_rph_sce
+set.seed(1234)
+CD4_rph_sce <-runPheno(CD4_sce,k=20,seed=134,type_markers = T)
+plotClusterHeatmap(CD4_rph_sce,
+                   hm2 = NULL, k = "rph", m = NULL,
+                   cluster_anno = TRUE, draw_freqs = TRUE)
+ 
+#OR users may choose flowSOM for clustering 
+CD4_sce<-CATALYST::cluster(CD4_sce, features = type_markers(CD4_sce),
+                        xdim = 10, ydim = 10, maxK = 40, seed = 1234)
+plotClusterHeatmap(CD4_sce,
+                   hm2 = NULL, k = "meta20", m = NULL,
+                   cluster_anno = TRUE, draw_freqs = TRUE)
+
+#merge clusters using CATALYST functions
+merging_table1<-read_excel("cluster_merging3.xlsx")
+head(data.frame(merging_table1))
+CD4_rph_sce <- mergeClusters(CD4_rph_sce, k = "rph",
+                     table = merging_table1, id = "merging1")
+plotClusterHeatmap(CD4_rph_sce, k = "merging1")
+plotAbundances(CD4_rph_sce, k = "merging1", by = "cluster_id", shape = "patient_id")
+#run DR 
+CD4_rph_sce <- runDR(CD4_rph_sce, dr = "UMAP", cells = 2000, features = "type")
+CD4_rph_sce <- runDR(CD4_rph_sce, dr = "TSNE", cells = 2000, features = "type")
+plotDR(CD4_rph_sce, "UMAP", color_by = "cluster_id",facet_by='condition')
+plotDR(CD4_rph_sce, "TSNE", color_by = "cluster_id",facet_by='condition')
+#extract raw frequency data
+fq_CD4T<-freqData(CD4_rph_sce,metadata=T)
+#statistical comparison for cell frequencies  
+stat_outcome_CD4T<-statTest(CD4_rph_sce,group='outcome',posthoc = T, method = 'pairwise.wilcox.test')
+stat_condition_CD4T<-statTest(CD4_rph_sce,group='condition',posthoc = T, method = 'pairwise.wilcox.test')
+#statistical comparison for state marker expression within each cell subcluster
+stat_exprs_outcome_CD4T <- statTest(CD4_rph_sce,type='DE',group='outcome')
+stat_exprs_condition_CD4T <- statTest(CD4_rph_sce,type='DE',group='condition')
+
+```
+
+
+
