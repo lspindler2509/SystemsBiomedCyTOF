@@ -1,0 +1,77 @@
+---
+title: 'Sankey plot'
+output: html_document
+date: '2024-12-17'
+---
+
+```{r}
+#install.packages("devtools")
+#devtools::install_github("davidsjoberg/ggsankey")
+library(ggsankey)
+library(ggplot2)
+library(dplyr)
+
+# Code from: https://rpubs.com/techanswers88/sankey-with-own-data-in-ggplot
+```
+
+# input parameters
+
+```{r}
+sce_path <- "data/sce_cleaned.rds"     # path to sce file
+file_path <- "results/scina_cleaned.csv"     # folder with the result file(s) for the different tools/methods/etc.
+mapper_path <- "cell_label_mapper.csv"     # file with uniform cell type labels as mapper
+```
+
+# function
+
+```{r}
+# mapping the cell labels to the uniform labels
+trans_cell_types <- function(vec, dt, col) {
+  trans_vec <- dt$label[ match(vec, dt[[col]]) ]
+  trans_vec <- factor(trans_vec, levels = unique(dt$label)[unique(dt$label) != "conventional CD4 cells"]) # without filtering balanced accuracy can't be computed
+  return(trans_vec)
+}
+```
+
+# preprocessing
+
+```{r}
+sce <- readRDS(sce_path)
+results <- scan(file_path, character(), quote="", sep="\n")
+
+sce_cells <- trans_cell_types(sce$cell_type, cell_type_dt, "sce_label")
+pred_cells <- trans_cell_types(results, cell_type_dt, "matrix_label")
+
+df <- data.frame("manual_gating"=sce_cells, "gating_tool"=pred_cells)
+df_long <- df %>% make_long(manual_gating, gating_tool)
+
+df_long_pct <- df_long %>%     # adding percentages
+  group_by(node)%>%
+  tally() %>%
+  mutate(pct = n/sum(n))
+
+df_plot <- merge(df_long, df_long_pct, by.x = 'node', by.y = 'node', all.x = TRUE)
+```
+
+# plotting
+
+```{r}
+p <- ggplot(df_plot, aes(x = x,
+                         next_x = next_x,
+                         node = node,
+                         next_node = next_node,
+                         fill = factor(node),
+                         label = paste0(node," n=", n, '(',  round(pct* 100,1), '%)' ))) +
+  geom_sankey(flow.alpha = 0.5,  color = "gray40", show.legend = TRUE) +
+  geom_sankey_label(size = 2, color = "black", fill= "white", hjust = -0.1) +
+  theme_bw() +
+  theme(legend.position = "none",
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank()) +
+  labs(fill = 'Nodes') +
+  scale_fill_viridis_d(option = "inferno")
+p
+```
+
