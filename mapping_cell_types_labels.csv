@@ -1,0 +1,17 @@
+label,sce_label,matrix_label
+B cells,CD19+,B cells
+T helper cells,T-Helferzellen,T helper cells
+Cytotoxic T cells,zytotoxische T-Zellen,Cytotoxic T cells
+Dendritic cells,"CD56-, HLADr+ DCs",Dendritic cells
+Mait cells,CD3+ MAIT Zellen,MAIT
+Monocytes,CD14+,Monocytes
+NK cells,NK bright,NK cells
+NK cells,NK dim,NK cells
+Unclassified,"Q2 CD8+ , CD4+ ",
+Unclassified,"Q4 CD8- , CD4- ",
+dead cells,non LD-,Dead
+gd T cells,non MAIT Zellen gd T-Zellen,gd T cells
+Unclassified,non DCs,
+Unclassified,non NK,
+Unclassified,non single cells,
+Unclassified,,Unclassified
