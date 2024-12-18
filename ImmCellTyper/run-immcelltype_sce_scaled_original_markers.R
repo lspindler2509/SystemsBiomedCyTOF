@@ -169,7 +169,7 @@ exprs_matrix <- NULL
 exprs <- t(assay(sce, 'scaled_exprs'))
 binary.results <- binaryClass2(exprs, class_dir)
 print(class(binary.results))
-write.csv(binary.results, file = "results_sce_scaled_original_matrix.csv", row.names = FALSE)
+write.csv(binary.results, file = "results_sce_scaled_original.csv", row.names = FALSE, col.names = FALSE)
 sce$cluster_id <- unlist(binary.results)
 
 plot <- plotbcFreq(sce, binary.results)

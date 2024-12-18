@@ -9,9 +9,9 @@ library(MLmetrics) # F1 score
 
 # input parameters
 
-sce_path <- "data/sce_cleaned.rds"     # path to sce file
-mapper_path <- "cell_label_mapper.csv"     # file with uniform cell type labels as mapper
-folder_path <- "results"     # folder with the result file(s) for the different tools/methods/etc.
+sce_path <- "/nfs/proj/collab_anke_hannover/Manual_Gating_Noemi/sce.rds"     # path to sce file
+mapper_path <- "~/mapping_cell_types_labels.csv"     # file with uniform cell type labels as mapper
+folder_path <- "~/results_celltypes"     # folder with the result file(s) for the different tools/methods/etc.
 file_pattern <- "*.csv"     # pattern of the wanted file(s) (! not the complete filename)
 
 out_path <- "metrics.csv"     # file to save the results of the metrics
@@ -23,7 +23,7 @@ out_path <- "metrics.csv"     # file to save the results of the metrics
 # mapping the cell labels to the uniform labels
 trans_cell_types <- function(vec, dt, col) {
   trans_vec <- dt$label[ match(vec, dt[[col]]) ]
-  trans_vec <- factor(trans_vec, levels = unique(dt$label)[unique(dt$label) != "conventional CD4 cells"]) # without filtering balanced accuracy can't be computed
+  trans_vec <- factor(trans_vec, levels = unique(dt$label)[unique(dt$label) != "Unclassified"]) # without filtering balanced accuracy can't be computed
   return(trans_vec)
 }
 
@@ -43,7 +43,17 @@ calc_metrics <- function(truth, estimate, method) {
 
 # extracting the result vectors from the file(s)
 filenames <- list.files(folder_path, pattern=file_pattern, full.names=TRUE)
-results_list <- lapply(filenames, scan, character(), quote="", sep="\n")
+results_list <- lapply(filenames, function(file) {
+  lines <- readLines(file)
+  
+  # Remove empty lines, if any
+  lines <- lines[lines != ""]
+  
+  # Remove quotes from lines
+  lines <- gsub('"', '', lines)
+  print(length(lines))
+  return(lines)
+})
 names(results_list) <- unlist(lapply(filenames, function(file) sub(file_pattern, '', basename(file))))
 
 
