@@ -1,0 +1,15 @@
+fcs_colname,antigen,marker_class
+APC-H7-A,LD,type
+APC-R700-A,CD19,type
+BV421-A,CD161,type
+BV510-A,CD4,type
+BV605-A,CD8,type
+BV650-A,HLA-DR,type
+BV711-A,CD14,type
+BV786-A,CD3,type
+PE-CF594-A,CD11c,type
+PE-Cy5-A,CD69,state
+PE-Cy7-A,CD56,type
+APC-A,CD16,state
+FITC-A,VA72,type
+PE-A,GDTCR,type

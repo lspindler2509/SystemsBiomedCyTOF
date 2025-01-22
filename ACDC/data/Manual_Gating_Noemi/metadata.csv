@@ -1,0 +1,901 @@
+file_name,group,patient_id,timepoint,measurement_day,cell_type,sample_id,condition
+export_Broadpanel_KNGE-EOT_005_CD14+.fcs,groupA,KNGE,EOT,5,CD14+ ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_CD19+.fcs,groupA,KNGE,EOT,5,CD19+ ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_CD3+_MAIT Zellen.fcs,groupA,KNGE,EOT,5,CD3+ MAIT Zellen,KNGE-EOT,groupA
+"export_Broadpanel_KNGE-EOT_005_CD56-, HLADr+_DCs.fcs",groupA,KNGE,EOT,5,"CD56-, HLADr+ DCs",KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_NK bright.fcs,groupA,KNGE,EOT,5,NK bright ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_NK dim.fcs,groupA,KNGE,EOT,5,NK dim ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_non DCs.fcs,groupA,KNGE,EOT,5,non DCs ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_non LD-.fcs,groupA,KNGE,EOT,5,non LD- ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_non MAIT Zellen_gd T-Zellen.fcs,groupA,KNGE,EOT,5,non MAIT Zellen gd T-Zellen,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_non NK.fcs,groupA,KNGE,EOT,5,non NK ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_non single cells.fcs,groupA,KNGE,EOT,5,non single cells ,KNGE-EOT,groupA
+"export_Broadpanel_KNGE-EOT_005_Q2 CD8+ , CD4+.fcs",groupA,KNGE,EOT,5,"Q2 CD8+ , CD4+ ",KNGE-EOT,groupA
+"export_Broadpanel_KNGE-EOT_005_Q4 CD8- , CD4-.fcs",groupA,KNGE,EOT,5,"Q4 CD8- , CD4- ",KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_T-Helferzellen.fcs,groupA,KNGE,EOT,5,T-Helferzellen ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-EOT_005_zytotoxische T-Zellen.fcs,groupA,KNGE,EOT,5,zytotoxische T-Zellen ,KNGE-EOT,groupA
+export_Broadpanel_KNGE-FU_006_CD14+.fcs,groupA,KNGE,FU,6,CD14+ ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_CD19+.fcs,groupA,KNGE,FU,6,CD19+ ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_CD3+_MAIT Zellen.fcs,groupA,KNGE,FU,6,CD3+ MAIT Zellen,KNGE-FU,groupA
+"export_Broadpanel_KNGE-FU_006_CD56-, HLADr+_DCs.fcs",groupA,KNGE,FU,6,"CD56-, HLADr+ DCs",KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_NK bright.fcs,groupA,KNGE,FU,6,NK bright ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_NK dim.fcs,groupA,KNGE,FU,6,NK dim ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_non DCs.fcs,groupA,KNGE,FU,6,non DCs ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_non LD-.fcs,groupA,KNGE,FU,6,non LD- ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_non MAIT Zellen_gd T-Zellen.fcs,groupA,KNGE,FU,6,non MAIT Zellen gd T-Zellen,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_non NK.fcs,groupA,KNGE,FU,6,non NK ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_non single cells.fcs,groupA,KNGE,FU,6,non single cells ,KNGE-FU,groupA
+"export_Broadpanel_KNGE-FU_006_Q2 CD8+ , CD4+.fcs",groupA,KNGE,FU,6,"Q2 CD8+ , CD4+ ",KNGE-FU,groupA
+"export_Broadpanel_KNGE-FU_006_Q4 CD8- , CD4-.fcs",groupA,KNGE,FU,6,"Q4 CD8- , CD4- ",KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_T-Helferzellen.fcs,groupA,KNGE,FU,6,T-Helferzellen ,KNGE-FU,groupA
+export_Broadpanel_KNGE-FU_006_zytotoxische T-Zellen.fcs,groupA,KNGE,FU,6,zytotoxische T-Zellen ,KNGE-FU,groupA
+export_Broadpanel_KNGE-TS_004_CD14+.fcs,groupA,KNGE,TS,4,CD14+ ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_CD19+.fcs,groupA,KNGE,TS,4,CD19+ ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_CD3+_MAIT Zellen.fcs,groupA,KNGE,TS,4,CD3+ MAIT Zellen,KNGE-TS,groupA
+"export_Broadpanel_KNGE-TS_004_CD56-, HLADr+_DCs.fcs",groupA,KNGE,TS,4,"CD56-, HLADr+ DCs",KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_NK bright.fcs,groupA,KNGE,TS,4,NK bright ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_NK dim.fcs,groupA,KNGE,TS,4,NK dim ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_non DCs.fcs,groupA,KNGE,TS,4,non DCs ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_non LD-.fcs,groupA,KNGE,TS,4,non LD- ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_non MAIT Zellen_gd T-Zellen.fcs,groupA,KNGE,TS,4,non MAIT Zellen gd T-Zellen,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_non NK.fcs,groupA,KNGE,TS,4,non NK ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_non single cells.fcs,groupA,KNGE,TS,4,non single cells ,KNGE-TS,groupA
+"export_Broadpanel_KNGE-TS_004_Q2 CD8+ , CD4+.fcs",groupA,KNGE,TS,4,"Q2 CD8+ , CD4+ ",KNGE-TS,groupA
+"export_Broadpanel_KNGE-TS_004_Q4 CD8- , CD4-.fcs",groupA,KNGE,TS,4,"Q4 CD8- , CD4- ",KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_T-Helferzellen.fcs,groupA,KNGE,TS,4,T-Helferzellen ,KNGE-TS,groupA
+export_Broadpanel_KNGE-TS_004_zytotoxische T-Zellen.fcs,groupA,KNGE,TS,4,zytotoxische T-Zellen ,KNGE-TS,groupA
+export_Broadpanel_NEBR-EOT_002_CD14+.fcs,groupA,NEBR,EOT,2,CD14+ ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_CD19+.fcs,groupA,NEBR,EOT,2,CD19+ ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_CD3+_MAIT Zellen.fcs,groupA,NEBR,EOT,2,CD3+ MAIT Zellen,NEBR-EOT,groupA
+"export_Broadpanel_NEBR-EOT_002_CD56-, HLADr+_DCs.fcs",groupA,NEBR,EOT,2,"CD56-, HLADr+ DCs",NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_NK bright.fcs,groupA,NEBR,EOT,2,NK bright ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_NK dim.fcs,groupA,NEBR,EOT,2,NK dim ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_non DCs.fcs,groupA,NEBR,EOT,2,non DCs ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_non LD-.fcs,groupA,NEBR,EOT,2,non LD- ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_non MAIT Zellen_gd T-Zellen.fcs,groupA,NEBR,EOT,2,non MAIT Zellen gd T-Zellen,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_non NK.fcs,groupA,NEBR,EOT,2,non NK ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_non single cells.fcs,groupA,NEBR,EOT,2,non single cells ,NEBR-EOT,groupA
+"export_Broadpanel_NEBR-EOT_002_Q2 CD8+ , CD4+.fcs",groupA,NEBR,EOT,2,"Q2 CD8+ , CD4+ ",NEBR-EOT,groupA
+"export_Broadpanel_NEBR-EOT_002_Q4 CD8- , CD4-.fcs",groupA,NEBR,EOT,2,"Q4 CD8- , CD4- ",NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_T-Helferzellen.fcs,groupA,NEBR,EOT,2,T-Helferzellen ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-EOT_002_zytotoxische T-Zellen.fcs,groupA,NEBR,EOT,2,zytotoxische T-Zellen ,NEBR-EOT,groupA
+export_Broadpanel_NEBR-FU_003_CD14+.fcs,groupA,NEBR,FU,3,CD14+ ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_CD19+.fcs,groupA,NEBR,FU,3,CD19+ ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_CD3+_MAIT Zellen.fcs,groupA,NEBR,FU,3,CD3+ MAIT Zellen,NEBR-FU,groupA
+"export_Broadpanel_NEBR-FU_003_CD56-, HLADr+_DCs.fcs",groupA,NEBR,FU,3,"CD56-, HLADr+ DCs",NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_NK bright.fcs,groupA,NEBR,FU,3,NK bright ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_NK dim.fcs,groupA,NEBR,FU,3,NK dim ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_non DCs.fcs,groupA,NEBR,FU,3,non DCs ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_non LD-.fcs,groupA,NEBR,FU,3,non LD- ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_non MAIT Zellen_gd T-Zellen.fcs,groupA,NEBR,FU,3,non MAIT Zellen gd T-Zellen,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_non NK.fcs,groupA,NEBR,FU,3,non NK ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_non single cells.fcs,groupA,NEBR,FU,3,non single cells ,NEBR-FU,groupA
+"export_Broadpanel_NEBR-FU_003_Q2 CD8+ , CD4+.fcs",groupA,NEBR,FU,3,"Q2 CD8+ , CD4+ ",NEBR-FU,groupA
+"export_Broadpanel_NEBR-FU_003_Q4 CD8- , CD4-.fcs",groupA,NEBR,FU,3,"Q4 CD8- , CD4- ",NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_T-Helferzellen.fcs,groupA,NEBR,FU,3,T-Helferzellen ,NEBR-FU,groupA
+export_Broadpanel_NEBR-FU_003_zytotoxische T-Zellen.fcs,groupA,NEBR,FU,3,zytotoxische T-Zellen ,NEBR-FU,groupA
+export_Broadpanel_NEBR-TS_001_CD14+.fcs,groupA,NEBR,TS,1,CD14+ ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_CD19+.fcs,groupA,NEBR,TS,1,CD19+ ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_CD3+_MAIT Zellen.fcs,groupA,NEBR,TS,1,CD3+ MAIT Zellen,NEBR-TS,groupA
+"export_Broadpanel_NEBR-TS_001_CD56-, HLADr+_DCs.fcs",groupA,NEBR,TS,1,"CD56-, HLADr+ DCs",NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_NK bright.fcs,groupA,NEBR,TS,1,NK bright ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_NK dim.fcs,groupA,NEBR,TS,1,NK dim ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_non DCs.fcs,groupA,NEBR,TS,1,non DCs ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_non LD-.fcs,groupA,NEBR,TS,1,non LD- ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_non MAIT Zellen_gd T-Zellen.fcs,groupA,NEBR,TS,1,non MAIT Zellen gd T-Zellen,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_non NK.fcs,groupA,NEBR,TS,1,non NK ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_non single cells.fcs,groupA,NEBR,TS,1,non single cells ,NEBR-TS,groupA
+"export_Broadpanel_NEBR-TS_001_Q2 CD8+ , CD4+.fcs",groupA,NEBR,TS,1,"Q2 CD8+ , CD4+ ",NEBR-TS,groupA
+"export_Broadpanel_NEBR-TS_001_Q4 CD8- , CD4-.fcs",groupA,NEBR,TS,1,"Q4 CD8- , CD4- ",NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_T-Helferzellen.fcs,groupA,NEBR,TS,1,T-Helferzellen ,NEBR-TS,groupA
+export_Broadpanel_NEBR-TS_001_zytotoxische T-Zellen.fcs,groupA,NEBR,TS,1,zytotoxische T-Zellen ,NEBR-TS,groupA
+export_Broadpanel_BDD-EOT_005_CD14+.fcs,groupB,BDD,EOT,5,CD14+ ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_CD19+.fcs,groupB,BDD,EOT,5,CD19+ ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_CD3+_MAIT Zellen.fcs,groupB,BDD,EOT,5,CD3+ MAIT Zellen,BDD-EOT,groupB
+"export_Broadpanel_BDD-EOT_005_CD56-, HLADr+_DCs.fcs",groupB,BDD,EOT,5,"CD56-, HLADr+ DCs",BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_NK bright.fcs,groupB,BDD,EOT,5,NK bright ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_NK dim.fcs,groupB,BDD,EOT,5,NK dim ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_non DCs.fcs,groupB,BDD,EOT,5,non DCs ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_non LD-.fcs,groupB,BDD,EOT,5,non LD- ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_non MAIT Zellen_gd T-Zellen.fcs,groupB,BDD,EOT,5,non MAIT Zellen gd T-Zellen,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_non NK.fcs,groupB,BDD,EOT,5,non NK ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_non single cells.fcs,groupB,BDD,EOT,5,non single cells ,BDD-EOT,groupB
+"export_Broadpanel_BDD-EOT_005_Q2 CD8+ , CD4+.fcs",groupB,BDD,EOT,5,"Q2 CD8+ , CD4+ ",BDD-EOT,groupB
+"export_Broadpanel_BDD-EOT_005_Q4 CD8- , CD4-.fcs",groupB,BDD,EOT,5,"Q4 CD8- , CD4- ",BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_T-Helferzellen.fcs,groupB,BDD,EOT,5,T-Helferzellen ,BDD-EOT,groupB
+export_Broadpanel_BDD-EOT_005_zytotoxische T-Zellen.fcs,groupB,BDD,EOT,5,zytotoxische T-Zellen ,BDD-EOT,groupB
+export_Broadpanel_BDD-FU_006_CD14+.fcs,groupB,BDD,FU,6,CD14+ ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_CD19+.fcs,groupB,BDD,FU,6,CD19+ ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_CD3+_MAIT Zellen.fcs,groupB,BDD,FU,6,CD3+ MAIT Zellen,BDD-FU,groupB
+"export_Broadpanel_BDD-FU_006_CD56-, HLADr+_DCs.fcs",groupB,BDD,FU,6,"CD56-, HLADr+ DCs",BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_NK bright.fcs,groupB,BDD,FU,6,NK bright ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_NK dim.fcs,groupB,BDD,FU,6,NK dim ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_non DCs.fcs,groupB,BDD,FU,6,non DCs ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_non LD-.fcs,groupB,BDD,FU,6,non LD- ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_non MAIT Zellen_gd T-Zellen.fcs,groupB,BDD,FU,6,non MAIT Zellen gd T-Zellen,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_non NK.fcs,groupB,BDD,FU,6,non NK ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_non single cells.fcs,groupB,BDD,FU,6,non single cells ,BDD-FU,groupB
+"export_Broadpanel_BDD-FU_006_Q2 CD8+ , CD4+.fcs",groupB,BDD,FU,6,"Q2 CD8+ , CD4+ ",BDD-FU,groupB
+"export_Broadpanel_BDD-FU_006_Q4 CD8- , CD4-.fcs",groupB,BDD,FU,6,"Q4 CD8- , CD4- ",BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_T-Helferzellen.fcs,groupB,BDD,FU,6,T-Helferzellen ,BDD-FU,groupB
+export_Broadpanel_BDD-FU_006_zytotoxische T-Zellen.fcs,groupB,BDD,FU,6,zytotoxische T-Zellen ,BDD-FU,groupB
+export_Broadpanel_BDD-TS_004_CD14+.fcs,groupB,BDD,TS,4,CD14+ ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_CD19+.fcs,groupB,BDD,TS,4,CD19+ ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_CD3+_MAIT Zellen.fcs,groupB,BDD,TS,4,CD3+ MAIT Zellen,BDD-TS,groupB
+"export_Broadpanel_BDD-TS_004_CD56-, HLADr+_DCs.fcs",groupB,BDD,TS,4,"CD56-, HLADr+ DCs",BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_NK bright.fcs,groupB,BDD,TS,4,NK bright ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_NK dim.fcs,groupB,BDD,TS,4,NK dim ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_non DCs.fcs,groupB,BDD,TS,4,non DCs ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_non LD-.fcs,groupB,BDD,TS,4,non LD- ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_non MAIT Zellen_gd T-Zellen.fcs,groupB,BDD,TS,4,non MAIT Zellen gd T-Zellen,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_non NK.fcs,groupB,BDD,TS,4,non NK ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_non single cells.fcs,groupB,BDD,TS,4,non single cells ,BDD-TS,groupB
+"export_Broadpanel_BDD-TS_004_Q2 CD8+ , CD4+.fcs",groupB,BDD,TS,4,"Q2 CD8+ , CD4+ ",BDD-TS,groupB
+"export_Broadpanel_BDD-TS_004_Q4 CD8- , CD4-.fcs",groupB,BDD,TS,4,"Q4 CD8- , CD4- ",BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_T-Helferzellen.fcs,groupB,BDD,TS,4,T-Helferzellen ,BDD-TS,groupB
+export_Broadpanel_BDD-TS_004_zytotoxische T-Zellen.fcs,groupB,BDD,TS,4,zytotoxische T-Zellen ,BDD-TS,groupB
+export_Broadpanel_KKKA-EOT_002_CD14+.fcs,groupB,KKKA,EOT,2,CD14+ ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_CD19+.fcs,groupB,KKKA,EOT,2,CD19+ ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_CD3+_MAIT Zellen.fcs,groupB,KKKA,EOT,2,CD3+ MAIT Zellen,KKKA-EOT,groupB
+"export_Broadpanel_KKKA-EOT_002_CD56-, HLADr+_DCs.fcs",groupB,KKKA,EOT,2,"CD56-, HLADr+ DCs",KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_NK bright.fcs,groupB,KKKA,EOT,2,NK bright ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_NK dim.fcs,groupB,KKKA,EOT,2,NK dim ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_non DCs.fcs,groupB,KKKA,EOT,2,non DCs ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_non LD-.fcs,groupB,KKKA,EOT,2,non LD- ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_non MAIT Zellen_gd T-Zellen.fcs,groupB,KKKA,EOT,2,non MAIT Zellen gd T-Zellen,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_non NK.fcs,groupB,KKKA,EOT,2,non NK ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_non single cells.fcs,groupB,KKKA,EOT,2,non single cells ,KKKA-EOT,groupB
+"export_Broadpanel_KKKA-EOT_002_Q2 CD8+ , CD4+.fcs",groupB,KKKA,EOT,2,"Q2 CD8+ , CD4+ ",KKKA-EOT,groupB
+"export_Broadpanel_KKKA-EOT_002_Q4 CD8- , CD4-.fcs",groupB,KKKA,EOT,2,"Q4 CD8- , CD4- ",KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_T-Helferzellen.fcs,groupB,KKKA,EOT,2,T-Helferzellen ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-EOT_002_zytotoxische T-Zellen.fcs,groupB,KKKA,EOT,2,zytotoxische T-Zellen ,KKKA-EOT,groupB
+export_Broadpanel_KKKA-FU_003_CD14+.fcs,groupB,KKKA,FU,3,CD14+ ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_CD19+.fcs,groupB,KKKA,FU,3,CD19+ ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_CD3+_MAIT Zellen.fcs,groupB,KKKA,FU,3,CD3+ MAIT Zellen,KKKA-FU,groupB
+"export_Broadpanel_KKKA-FU_003_CD56-, HLADr+_DCs.fcs",groupB,KKKA,FU,3,"CD56-, HLADr+ DCs",KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_NK bright.fcs,groupB,KKKA,FU,3,NK bright ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_NK dim.fcs,groupB,KKKA,FU,3,NK dim ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_non DCs.fcs,groupB,KKKA,FU,3,non DCs ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_non LD-.fcs,groupB,KKKA,FU,3,non LD- ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_non MAIT Zellen_gd T-Zellen.fcs,groupB,KKKA,FU,3,non MAIT Zellen gd T-Zellen,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_non NK.fcs,groupB,KKKA,FU,3,non NK ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_non single cells.fcs,groupB,KKKA,FU,3,non single cells ,KKKA-FU,groupB
+"export_Broadpanel_KKKA-FU_003_Q2 CD8+ , CD4+.fcs",groupB,KKKA,FU,3,"Q2 CD8+ , CD4+ ",KKKA-FU,groupB
+"export_Broadpanel_KKKA-FU_003_Q4 CD8- , CD4-.fcs",groupB,KKKA,FU,3,"Q4 CD8- , CD4- ",KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_T-Helferzellen.fcs,groupB,KKKA,FU,3,T-Helferzellen ,KKKA-FU,groupB
+export_Broadpanel_KKKA-FU_003_zytotoxische T-Zellen.fcs,groupB,KKKA,FU,3,zytotoxische T-Zellen ,KKKA-FU,groupB
+export_Broadpanel_KKKA-TS_001_CD14+.fcs,groupB,KKKA,TS,1,CD14+ ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_CD19+.fcs,groupB,KKKA,TS,1,CD19+ ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_CD3+_MAIT Zellen.fcs,groupB,KKKA,TS,1,CD3+ MAIT Zellen,KKKA-TS,groupB
+"export_Broadpanel_KKKA-TS_001_CD56-, HLADr+_DCs.fcs",groupB,KKKA,TS,1,"CD56-, HLADr+ DCs",KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_NK bright.fcs,groupB,KKKA,TS,1,NK bright ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_NK dim.fcs,groupB,KKKA,TS,1,NK dim ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_non DCs.fcs,groupB,KKKA,TS,1,non DCs ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_non LD-.fcs,groupB,KKKA,TS,1,non LD- ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_non MAIT Zellen_gd T-Zellen.fcs,groupB,KKKA,TS,1,non MAIT Zellen gd T-Zellen,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_non NK.fcs,groupB,KKKA,TS,1,non NK ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_non single cells.fcs,groupB,KKKA,TS,1,non single cells ,KKKA-TS,groupB
+"export_Broadpanel_KKKA-TS_001_Q2 CD8+ , CD4+.fcs",groupB,KKKA,TS,1,"Q2 CD8+ , CD4+ ",KKKA-TS,groupB
+"export_Broadpanel_KKKA-TS_001_Q4 CD8- , CD4-.fcs",groupB,KKKA,TS,1,"Q4 CD8- , CD4- ",KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_T-Helferzellen.fcs,groupB,KKKA,TS,1,T-Helferzellen ,KKKA-TS,groupB
+export_Broadpanel_KKKA-TS_001_zytotoxische T-Zellen.fcs,groupB,KKKA,TS,1,zytotoxische T-Zellen ,KKKA-TS,groupB
+export_Broadpanel_FKF-EOT_002_CD14+.fcs,groupC,FKF,EOT,2,CD14+ ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_CD19+.fcs,groupC,FKF,EOT,2,CD19+ ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_CD3+_MAIT Zellen.fcs,groupC,FKF,EOT,2,CD3+ MAIT Zellen,FKF-EOT,groupC
+"export_Broadpanel_FKF-EOT_002_CD56-, HLADr+_DCs.fcs",groupC,FKF,EOT,2,"CD56-, HLADr+ DCs",FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_NK bright.fcs,groupC,FKF,EOT,2,NK bright ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_NK dim.fcs,groupC,FKF,EOT,2,NK dim ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_non DCs.fcs,groupC,FKF,EOT,2,non DCs ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_non LD-.fcs,groupC,FKF,EOT,2,non LD- ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_non MAIT Zellen_gd T-Zellen.fcs,groupC,FKF,EOT,2,non MAIT Zellen gd T-Zellen,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_non NK.fcs,groupC,FKF,EOT,2,non NK ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_non single cells.fcs,groupC,FKF,EOT,2,non single cells ,FKF-EOT,groupC
+"export_Broadpanel_FKF-EOT_002_Q2 CD8+ , CD4+.fcs",groupC,FKF,EOT,2,"Q2 CD8+ , CD4+ ",FKF-EOT,groupC
+"export_Broadpanel_FKF-EOT_002_Q4 CD8- , CD4-.fcs",groupC,FKF,EOT,2,"Q4 CD8- , CD4- ",FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_T-Helferzellen.fcs,groupC,FKF,EOT,2,T-Helferzellen ,FKF-EOT,groupC
+export_Broadpanel_FKF-EOT_002_zytotoxische T-Zellen.fcs,groupC,FKF,EOT,2,zytotoxische T-Zellen ,FKF-EOT,groupC
+export_Broadpanel_FKF-FU_003_CD14+.fcs,groupC,FKF,FU,3,CD14+ ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_CD19+.fcs,groupC,FKF,FU,3,CD19+ ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_CD3+_MAIT Zellen.fcs,groupC,FKF,FU,3,CD3+ MAIT Zellen,FKF-FU,groupC
+"export_Broadpanel_FKF-FU_003_CD56-, HLADr+_DCs.fcs",groupC,FKF,FU,3,"CD56-, HLADr+ DCs",FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_NK bright.fcs,groupC,FKF,FU,3,NK bright ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_NK dim.fcs,groupC,FKF,FU,3,NK dim ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_non DCs.fcs,groupC,FKF,FU,3,non DCs ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_non LD-.fcs,groupC,FKF,FU,3,non LD- ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_non MAIT Zellen_gd T-Zellen.fcs,groupC,FKF,FU,3,non MAIT Zellen gd T-Zellen,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_non NK.fcs,groupC,FKF,FU,3,non NK ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_non single cells.fcs,groupC,FKF,FU,3,non single cells ,FKF-FU,groupC
+"export_Broadpanel_FKF-FU_003_Q2 CD8+ , CD4+.fcs",groupC,FKF,FU,3,"Q2 CD8+ , CD4+ ",FKF-FU,groupC
+"export_Broadpanel_FKF-FU_003_Q4 CD8- , CD4-.fcs",groupC,FKF,FU,3,"Q4 CD8- , CD4- ",FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_T-Helferzellen.fcs,groupC,FKF,FU,3,T-Helferzellen ,FKF-FU,groupC
+export_Broadpanel_FKF-FU_003_zytotoxische T-Zellen.fcs,groupC,FKF,FU,3,zytotoxische T-Zellen ,FKF-FU,groupC
+export_Broadpanel_FKF-TS_001_CD14+.fcs,groupC,FKF,TS,1,CD14+ ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_CD19+.fcs,groupC,FKF,TS,1,CD19+ ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_CD3+_MAIT Zellen.fcs,groupC,FKF,TS,1,CD3+ MAIT Zellen,FKF-TS,groupC
+"export_Broadpanel_FKF-TS_001_CD56-, HLADr+_DCs.fcs",groupC,FKF,TS,1,"CD56-, HLADr+ DCs",FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_NK bright.fcs,groupC,FKF,TS,1,NK bright ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_NK dim.fcs,groupC,FKF,TS,1,NK dim ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_non DCs.fcs,groupC,FKF,TS,1,non DCs ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_non LD-.fcs,groupC,FKF,TS,1,non LD- ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_non MAIT Zellen_gd T-Zellen.fcs,groupC,FKF,TS,1,non MAIT Zellen gd T-Zellen,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_non NK.fcs,groupC,FKF,TS,1,non NK ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_non single cells.fcs,groupC,FKF,TS,1,non single cells ,FKF-TS,groupC
+"export_Broadpanel_FKF-TS_001_Q2 CD8+ , CD4+.fcs",groupC,FKF,TS,1,"Q2 CD8+ , CD4+ ",FKF-TS,groupC
+"export_Broadpanel_FKF-TS_001_Q4 CD8- , CD4-.fcs",groupC,FKF,TS,1,"Q4 CD8- , CD4- ",FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_T-Helferzellen.fcs,groupC,FKF,TS,1,T-Helferzellen ,FKF-TS,groupC
+export_Broadpanel_FKF-TS_001_zytotoxische T-Zellen.fcs,groupC,FKF,TS,1,zytotoxische T-Zellen ,FKF-TS,groupC
+export_Broadpanel_INB-EOT_005_CD14+.fcs,groupC,INB,EOT,5,CD14+ ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_CD19+.fcs,groupC,INB,EOT,5,CD19+ ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_CD3+_MAIT Zellen.fcs,groupC,INB,EOT,5,CD3+ MAIT Zellen,INB-EOT,groupC
+"export_Broadpanel_INB-EOT_005_CD56-, HLADr+_DCs.fcs",groupC,INB,EOT,5,"CD56-, HLADr+ DCs",INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_NK bright.fcs,groupC,INB,EOT,5,NK bright ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_NK dim.fcs,groupC,INB,EOT,5,NK dim ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_non DCs.fcs,groupC,INB,EOT,5,non DCs ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_non LD-.fcs,groupC,INB,EOT,5,non LD- ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_non MAIT Zellen_gd T-Zellen.fcs,groupC,INB,EOT,5,non MAIT Zellen gd T-Zellen,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_non NK.fcs,groupC,INB,EOT,5,non NK ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_non single cells.fcs,groupC,INB,EOT,5,non single cells ,INB-EOT,groupC
+"export_Broadpanel_INB-EOT_005_Q2 CD8+ , CD4+.fcs",groupC,INB,EOT,5,"Q2 CD8+ , CD4+ ",INB-EOT,groupC
+"export_Broadpanel_INB-EOT_005_Q4 CD8- , CD4-.fcs",groupC,INB,EOT,5,"Q4 CD8- , CD4- ",INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_T-Helferzellen.fcs,groupC,INB,EOT,5,T-Helferzellen ,INB-EOT,groupC
+export_Broadpanel_INB-EOT_005_zytotoxische T-Zellen.fcs,groupC,INB,EOT,5,zytotoxische T-Zellen ,INB-EOT,groupC
+export_Broadpanel_INB-FU_006_CD14+.fcs,groupC,INB,FU,6,CD14+ ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_CD19+.fcs,groupC,INB,FU,6,CD19+ ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_CD3+_MAIT Zellen.fcs,groupC,INB,FU,6,CD3+ MAIT Zellen,INB-FU,groupC
+"export_Broadpanel_INB-FU_006_CD56-, HLADr+_DCs.fcs",groupC,INB,FU,6,"CD56-, HLADr+ DCs",INB-FU,groupC
+export_Broadpanel_INB-FU_006_NK bright.fcs,groupC,INB,FU,6,NK bright ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_NK dim.fcs,groupC,INB,FU,6,NK dim ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_non DCs.fcs,groupC,INB,FU,6,non DCs ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_non LD-.fcs,groupC,INB,FU,6,non LD- ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_non MAIT Zellen_gd T-Zellen.fcs,groupC,INB,FU,6,non MAIT Zellen gd T-Zellen,INB-FU,groupC
+export_Broadpanel_INB-FU_006_non NK.fcs,groupC,INB,FU,6,non NK ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_non single cells.fcs,groupC,INB,FU,6,non single cells ,INB-FU,groupC
+"export_Broadpanel_INB-FU_006_Q2 CD8+ , CD4+.fcs",groupC,INB,FU,6,"Q2 CD8+ , CD4+ ",INB-FU,groupC
+"export_Broadpanel_INB-FU_006_Q4 CD8- , CD4-.fcs",groupC,INB,FU,6,"Q4 CD8- , CD4- ",INB-FU,groupC
+export_Broadpanel_INB-FU_006_T-Helferzellen.fcs,groupC,INB,FU,6,T-Helferzellen ,INB-FU,groupC
+export_Broadpanel_INB-FU_006_zytotoxische T-Zellen.fcs,groupC,INB,FU,6,zytotoxische T-Zellen ,INB-FU,groupC
+export_Broadpanel_INB-TS_004_CD14+.fcs,groupC,INB,TS,4,CD14+ ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_CD19+.fcs,groupC,INB,TS,4,CD19+ ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_CD3+_MAIT Zellen.fcs,groupC,INB,TS,4,CD3+ MAIT Zellen,INB-TS,groupC
+"export_Broadpanel_INB-TS_004_CD56-, HLADr+_DCs.fcs",groupC,INB,TS,4,"CD56-, HLADr+ DCs",INB-TS,groupC
+export_Broadpanel_INB-TS_004_NK bright.fcs,groupC,INB,TS,4,NK bright ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_NK dim.fcs,groupC,INB,TS,4,NK dim ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_non DCs.fcs,groupC,INB,TS,4,non DCs ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_non LD-.fcs,groupC,INB,TS,4,non LD- ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_non MAIT Zellen_gd T-Zellen.fcs,groupC,INB,TS,4,non MAIT Zellen gd T-Zellen,INB-TS,groupC
+export_Broadpanel_INB-TS_004_non NK.fcs,groupC,INB,TS,4,non NK ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_non single cells.fcs,groupC,INB,TS,4,non single cells ,INB-TS,groupC
+"export_Broadpanel_INB-TS_004_Q2 CD8+ , CD4+.fcs",groupC,INB,TS,4,"Q2 CD8+ , CD4+ ",INB-TS,groupC
+"export_Broadpanel_INB-TS_004_Q4 CD8- , CD4-.fcs",groupC,INB,TS,4,"Q4 CD8- , CD4- ",INB-TS,groupC
+export_Broadpanel_INB-TS_004_T-Helferzellen.fcs,groupC,INB,TS,4,T-Helferzellen ,INB-TS,groupC
+export_Broadpanel_INB-TS_004_zytotoxische T-Zellen.fcs,groupC,INB,TS,4,zytotoxische T-Zellen ,INB-TS,groupC
+export_Broadpanel_MAWN-EOT_011_CD14+.fcs,groupC,MAWN,EOT,11,CD14+ ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_CD19+.fcs,groupC,MAWN,EOT,11,CD19+ ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_CD3+_MAIT Zellen.fcs,groupC,MAWN,EOT,11,CD3+ MAIT Zellen,MAWN-EOT,groupC
+"export_Broadpanel_MAWN-EOT_011_CD56-, HLADr+_DCs.fcs",groupC,MAWN,EOT,11,"CD56-, HLADr+ DCs",MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_NK bright.fcs,groupC,MAWN,EOT,11,NK bright ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_NK dim.fcs,groupC,MAWN,EOT,11,NK dim ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_non DCs.fcs,groupC,MAWN,EOT,11,non DCs ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_non LD-.fcs,groupC,MAWN,EOT,11,non LD- ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_non MAIT Zellen_gd T-Zellen.fcs,groupC,MAWN,EOT,11,non MAIT Zellen gd T-Zellen,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_non NK.fcs,groupC,MAWN,EOT,11,non NK ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_non single cells.fcs,groupC,MAWN,EOT,11,non single cells ,MAWN-EOT,groupC
+"export_Broadpanel_MAWN-EOT_011_Q2 CD8+ , CD4+.fcs",groupC,MAWN,EOT,11,"Q2 CD8+ , CD4+ ",MAWN-EOT,groupC
+"export_Broadpanel_MAWN-EOT_011_Q4 CD8- , CD4-.fcs",groupC,MAWN,EOT,11,"Q4 CD8- , CD4- ",MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_T-Helferzellen.fcs,groupC,MAWN,EOT,11,T-Helferzellen ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-EOT_011_zytotoxische T-Zellen.fcs,groupC,MAWN,EOT,11,zytotoxische T-Zellen ,MAWN-EOT,groupC
+export_Broadpanel_MAWN-FU_012_CD14+.fcs,groupC,MAWN,FU,12,CD14+ ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_CD19+.fcs,groupC,MAWN,FU,12,CD19+ ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_CD3+_MAIT Zellen.fcs,groupC,MAWN,FU,12,CD3+ MAIT Zellen,MAWN-FU,groupC
+"export_Broadpanel_MAWN-FU_012_CD56-, HLADr+_DCs.fcs",groupC,MAWN,FU,12,"CD56-, HLADr+ DCs",MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_NK bright.fcs,groupC,MAWN,FU,12,NK bright ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_NK dim.fcs,groupC,MAWN,FU,12,NK dim ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_non DCs.fcs,groupC,MAWN,FU,12,non DCs ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_non LD-.fcs,groupC,MAWN,FU,12,non LD- ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_non MAIT Zellen_gd T-Zellen.fcs,groupC,MAWN,FU,12,non MAIT Zellen gd T-Zellen,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_non NK.fcs,groupC,MAWN,FU,12,non NK ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_non single cells.fcs,groupC,MAWN,FU,12,non single cells ,MAWN-FU,groupC
+"export_Broadpanel_MAWN-FU_012_Q2 CD8+ , CD4+.fcs",groupC,MAWN,FU,12,"Q2 CD8+ , CD4+ ",MAWN-FU,groupC
+"export_Broadpanel_MAWN-FU_012_Q4 CD8- , CD4-.fcs",groupC,MAWN,FU,12,"Q4 CD8- , CD4- ",MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_T-Helferzellen.fcs,groupC,MAWN,FU,12,T-Helferzellen ,MAWN-FU,groupC
+export_Broadpanel_MAWN-FU_012_zytotoxische T-Zellen.fcs,groupC,MAWN,FU,12,zytotoxische T-Zellen ,MAWN-FU,groupC
+export_Broadpanel_MAWN-TS_010_CD14+.fcs,groupC,MAWN,TS,10,CD14+ ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_CD19+.fcs,groupC,MAWN,TS,10,CD19+ ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_CD3+_MAIT Zellen.fcs,groupC,MAWN,TS,10,CD3+ MAIT Zellen,MAWN-TS,groupC
+"export_Broadpanel_MAWN-TS_010_CD56-, HLADr+_DCs.fcs",groupC,MAWN,TS,10,"CD56-, HLADr+ DCs",MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_NK bright.fcs,groupC,MAWN,TS,10,NK bright ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_NK dim.fcs,groupC,MAWN,TS,10,NK dim ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_non DCs.fcs,groupC,MAWN,TS,10,non DCs ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_non LD-.fcs,groupC,MAWN,TS,10,non LD- ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_non MAIT Zellen_gd T-Zellen.fcs,groupC,MAWN,TS,10,non MAIT Zellen gd T-Zellen,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_non NK.fcs,groupC,MAWN,TS,10,non NK ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_non single cells.fcs,groupC,MAWN,TS,10,non single cells ,MAWN-TS,groupC
+"export_Broadpanel_MAWN-TS_010_Q2 CD8+ , CD4+.fcs",groupC,MAWN,TS,10,"Q2 CD8+ , CD4+ ",MAWN-TS,groupC
+"export_Broadpanel_MAWN-TS_010_Q4 CD8- , CD4-.fcs",groupC,MAWN,TS,10,"Q4 CD8- , CD4- ",MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_T-Helferzellen.fcs,groupC,MAWN,TS,10,T-Helferzellen ,MAWN-TS,groupC
+export_Broadpanel_MAWN-TS_010_zytotoxische T-Zellen.fcs,groupC,MAWN,TS,10,zytotoxische T-Zellen ,MAWN-TS,groupC
+export_Broadpanel_PRW-EOT_008_CD14+.fcs,groupC,PRW,EOT,8,CD14+ ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_CD19+.fcs,groupC,PRW,EOT,8,CD19+ ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_CD3+_MAIT Zellen.fcs,groupC,PRW,EOT,8,CD3+ MAIT Zellen,PRW-EOT,groupC
+"export_Broadpanel_PRW-EOT_008_CD56-, HLADr+_DCs.fcs",groupC,PRW,EOT,8,"CD56-, HLADr+ DCs",PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_NK bright.fcs,groupC,PRW,EOT,8,NK bright ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_NK dim.fcs,groupC,PRW,EOT,8,NK dim ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_non DCs.fcs,groupC,PRW,EOT,8,non DCs ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_non LD-.fcs,groupC,PRW,EOT,8,non LD- ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_non MAIT Zellen_gd T-Zellen.fcs,groupC,PRW,EOT,8,non MAIT Zellen gd T-Zellen,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_non NK.fcs,groupC,PRW,EOT,8,non NK ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_non single cells.fcs,groupC,PRW,EOT,8,non single cells ,PRW-EOT,groupC
+"export_Broadpanel_PRW-EOT_008_Q2 CD8+ , CD4+.fcs",groupC,PRW,EOT,8,"Q2 CD8+ , CD4+ ",PRW-EOT,groupC
+"export_Broadpanel_PRW-EOT_008_Q4 CD8- , CD4-.fcs",groupC,PRW,EOT,8,"Q4 CD8- , CD4- ",PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_T-Helferzellen.fcs,groupC,PRW,EOT,8,T-Helferzellen ,PRW-EOT,groupC
+export_Broadpanel_PRW-EOT_008_zytotoxische T-Zellen.fcs,groupC,PRW,EOT,8,zytotoxische T-Zellen ,PRW-EOT,groupC
+export_Broadpanel_PRW-FU_009_CD14+.fcs,groupC,PRW,FU,9,CD14+ ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_CD19+.fcs,groupC,PRW,FU,9,CD19+ ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_CD3+_MAIT Zellen.fcs,groupC,PRW,FU,9,CD3+ MAIT Zellen,PRW-FU,groupC
+"export_Broadpanel_PRW-FU_009_CD56-, HLADr+_DCs.fcs",groupC,PRW,FU,9,"CD56-, HLADr+ DCs",PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_NK bright.fcs,groupC,PRW,FU,9,NK bright ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_NK dim.fcs,groupC,PRW,FU,9,NK dim ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_non DCs.fcs,groupC,PRW,FU,9,non DCs ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_non LD-.fcs,groupC,PRW,FU,9,non LD- ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_non MAIT Zellen_gd T-Zellen.fcs,groupC,PRW,FU,9,non MAIT Zellen gd T-Zellen,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_non NK.fcs,groupC,PRW,FU,9,non NK ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_non single cells.fcs,groupC,PRW,FU,9,non single cells ,PRW-FU,groupC
+"export_Broadpanel_PRW-FU_009_Q2 CD8+ , CD4+.fcs",groupC,PRW,FU,9,"Q2 CD8+ , CD4+ ",PRW-FU,groupC
+"export_Broadpanel_PRW-FU_009_Q4 CD8- , CD4-.fcs",groupC,PRW,FU,9,"Q4 CD8- , CD4- ",PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_T-Helferzellen.fcs,groupC,PRW,FU,9,T-Helferzellen ,PRW-FU,groupC
+export_Broadpanel_PRW-FU_009_zytotoxische T-Zellen.fcs,groupC,PRW,FU,9,zytotoxische T-Zellen ,PRW-FU,groupC
+export_Broadpanel_PRW-TS_007_CD14+.fcs,groupC,PRW,TS,7,CD14+ ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_CD19+.fcs,groupC,PRW,TS,7,CD19+ ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_CD3+_MAIT Zellen.fcs,groupC,PRW,TS,7,CD3+ MAIT Zellen,PRW-TS,groupC
+"export_Broadpanel_PRW-TS_007_CD56-, HLADr+_DCs.fcs",groupC,PRW,TS,7,"CD56-, HLADr+ DCs",PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_NK bright.fcs,groupC,PRW,TS,7,NK bright ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_NK dim.fcs,groupC,PRW,TS,7,NK dim ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_non DCs.fcs,groupC,PRW,TS,7,non DCs ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_non LD-.fcs,groupC,PRW,TS,7,non LD- ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_non MAIT Zellen_gd T-Zellen.fcs,groupC,PRW,TS,7,non MAIT Zellen gd T-Zellen,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_non NK.fcs,groupC,PRW,TS,7,non NK ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_non single cells.fcs,groupC,PRW,TS,7,non single cells ,PRW-TS,groupC
+"export_Broadpanel_PRW-TS_007_Q2 CD8+ , CD4+.fcs",groupC,PRW,TS,7,"Q2 CD8+ , CD4+ ",PRW-TS,groupC
+"export_Broadpanel_PRW-TS_007_Q4 CD8- , CD4-.fcs",groupC,PRW,TS,7,"Q4 CD8- , CD4- ",PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_T-Helferzellen.fcs,groupC,PRW,TS,7,T-Helferzellen ,PRW-TS,groupC
+export_Broadpanel_PRW-TS_007_zytotoxische T-Zellen.fcs,groupC,PRW,TS,7,zytotoxische T-Zellen ,PRW-TS,groupC
+export_Broadpanel_FSLK-EOT_011_CD14+.fcs,groupD,FSLK,EOT,11,CD14+ ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_CD19+.fcs,groupD,FSLK,EOT,11,CD19+ ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_CD3+_MAIT Zellen.fcs,groupD,FSLK,EOT,11,CD3+ MAIT Zellen,FSLK-EOT,groupD
+"export_Broadpanel_FSLK-EOT_011_CD56-, HLADr+_DCs.fcs",groupD,FSLK,EOT,11,"CD56-, HLADr+ DCs",FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_NK bright.fcs,groupD,FSLK,EOT,11,NK bright ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_NK dim.fcs,groupD,FSLK,EOT,11,NK dim ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_non DCs.fcs,groupD,FSLK,EOT,11,non DCs ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_non LD-.fcs,groupD,FSLK,EOT,11,non LD- ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_non MAIT Zellen_gd T-Zellen.fcs,groupD,FSLK,EOT,11,non MAIT Zellen gd T-Zellen,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_non NK.fcs,groupD,FSLK,EOT,11,non NK ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_non single cells.fcs,groupD,FSLK,EOT,11,non single cells ,FSLK-EOT,groupD
+"export_Broadpanel_FSLK-EOT_011_Q2 CD8+ , CD4+.fcs",groupD,FSLK,EOT,11,"Q2 CD8+ , CD4+ ",FSLK-EOT,groupD
+"export_Broadpanel_FSLK-EOT_011_Q4 CD8- , CD4-.fcs",groupD,FSLK,EOT,11,"Q4 CD8- , CD4- ",FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_T-Helferzellen.fcs,groupD,FSLK,EOT,11,T-Helferzellen ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-EOT_011_zytotoxische T-Zellen.fcs,groupD,FSLK,EOT,11,zytotoxische T-Zellen ,FSLK-EOT,groupD
+export_Broadpanel_FSLK-FU_012_CD14+.fcs,groupD,FSLK,FU,12,CD14+ ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_CD19+.fcs,groupD,FSLK,FU,12,CD19+ ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_CD3+_MAIT Zellen.fcs,groupD,FSLK,FU,12,CD3+ MAIT Zellen,FSLK-FU,groupD
+"export_Broadpanel_FSLK-FU_012_CD56-, HLADr+_DCs.fcs",groupD,FSLK,FU,12,"CD56-, HLADr+ DCs",FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_NK bright.fcs,groupD,FSLK,FU,12,NK bright ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_NK dim.fcs,groupD,FSLK,FU,12,NK dim ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_non DCs.fcs,groupD,FSLK,FU,12,non DCs ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_non LD-.fcs,groupD,FSLK,FU,12,non LD- ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_non MAIT Zellen_gd T-Zellen.fcs,groupD,FSLK,FU,12,non MAIT Zellen gd T-Zellen,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_non NK.fcs,groupD,FSLK,FU,12,non NK ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_non single cells.fcs,groupD,FSLK,FU,12,non single cells ,FSLK-FU,groupD
+"export_Broadpanel_FSLK-FU_012_Q2 CD8+ , CD4+.fcs",groupD,FSLK,FU,12,"Q2 CD8+ , CD4+ ",FSLK-FU,groupD
+"export_Broadpanel_FSLK-FU_012_Q4 CD8- , CD4-.fcs",groupD,FSLK,FU,12,"Q4 CD8- , CD4- ",FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_T-Helferzellen.fcs,groupD,FSLK,FU,12,T-Helferzellen ,FSLK-FU,groupD
+export_Broadpanel_FSLK-FU_012_zytotoxische T-Zellen.fcs,groupD,FSLK,FU,12,zytotoxische T-Zellen ,FSLK-FU,groupD
+export_Broadpanel_FSLK-TS_010_CD14+.fcs,groupD,FSLK,TS,10,CD14+ ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_CD19+.fcs,groupD,FSLK,TS,10,CD19+ ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_CD3+_MAIT Zellen.fcs,groupD,FSLK,TS,10,CD3+ MAIT Zellen,FSLK-TS,groupD
+"export_Broadpanel_FSLK-TS_010_CD56-, HLADr+_DCs.fcs",groupD,FSLK,TS,10,"CD56-, HLADr+ DCs",FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_NK bright.fcs,groupD,FSLK,TS,10,NK bright ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_NK dim.fcs,groupD,FSLK,TS,10,NK dim ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_non DCs.fcs,groupD,FSLK,TS,10,non DCs ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_non LD-.fcs,groupD,FSLK,TS,10,non LD- ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_non MAIT Zellen_gd T-Zellen.fcs,groupD,FSLK,TS,10,non MAIT Zellen gd T-Zellen,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_non NK.fcs,groupD,FSLK,TS,10,non NK ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_non single cells.fcs,groupD,FSLK,TS,10,non single cells ,FSLK-TS,groupD
+"export_Broadpanel_FSLK-TS_010_Q2 CD8+ , CD4+.fcs",groupD,FSLK,TS,10,"Q2 CD8+ , CD4+ ",FSLK-TS,groupD
+"export_Broadpanel_FSLK-TS_010_Q4 CD8- , CD4-.fcs",groupD,FSLK,TS,10,"Q4 CD8- , CD4- ",FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_T-Helferzellen.fcs,groupD,FSLK,TS,10,T-Helferzellen ,FSLK-TS,groupD
+export_Broadpanel_FSLK-TS_010_zytotoxische T-Zellen.fcs,groupD,FSLK,TS,10,zytotoxische T-Zellen ,FSLK-TS,groupD
+export_Broadpanel_HHMA-EOT_008_CD14+.fcs,groupD,HHMA,EOT,8,CD14+ ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_CD19+.fcs,groupD,HHMA,EOT,8,CD19+ ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_CD3+_MAIT Zellen.fcs,groupD,HHMA,EOT,8,CD3+ MAIT Zellen,HHMA-EOT,groupD
+"export_Broadpanel_HHMA-EOT_008_CD56-, HLADr+_DCs.fcs",groupD,HHMA,EOT,8,"CD56-, HLADr+ DCs",HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_NK bright.fcs,groupD,HHMA,EOT,8,NK bright ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_NK dim.fcs,groupD,HHMA,EOT,8,NK dim ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_non DCs.fcs,groupD,HHMA,EOT,8,non DCs ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_non LD-.fcs,groupD,HHMA,EOT,8,non LD- ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_non MAIT Zellen_gd T-Zellen.fcs,groupD,HHMA,EOT,8,non MAIT Zellen gd T-Zellen,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_non NK.fcs,groupD,HHMA,EOT,8,non NK ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_non single cells.fcs,groupD,HHMA,EOT,8,non single cells ,HHMA-EOT,groupD
+"export_Broadpanel_HHMA-EOT_008_Q2 CD8+ , CD4+.fcs",groupD,HHMA,EOT,8,"Q2 CD8+ , CD4+ ",HHMA-EOT,groupD
+"export_Broadpanel_HHMA-EOT_008_Q4 CD8- , CD4-.fcs",groupD,HHMA,EOT,8,"Q4 CD8- , CD4- ",HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_T-Helferzellen.fcs,groupD,HHMA,EOT,8,T-Helferzellen ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-EOT_008_zytotoxische T-Zellen.fcs,groupD,HHMA,EOT,8,zytotoxische T-Zellen ,HHMA-EOT,groupD
+export_Broadpanel_HHMA-FU_009_CD14+.fcs,groupD,HHMA,FU,9,CD14+ ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_CD19+.fcs,groupD,HHMA,FU,9,CD19+ ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_CD3+_MAIT Zellen.fcs,groupD,HHMA,FU,9,CD3+ MAIT Zellen,HHMA-FU,groupD
+"export_Broadpanel_HHMA-FU_009_CD56-, HLADr+_DCs.fcs",groupD,HHMA,FU,9,"CD56-, HLADr+ DCs",HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_NK bright.fcs,groupD,HHMA,FU,9,NK bright ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_NK dim.fcs,groupD,HHMA,FU,9,NK dim ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_non DCs.fcs,groupD,HHMA,FU,9,non DCs ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_non LD-.fcs,groupD,HHMA,FU,9,non LD- ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_non MAIT Zellen_gd T-Zellen.fcs,groupD,HHMA,FU,9,non MAIT Zellen gd T-Zellen,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_non NK.fcs,groupD,HHMA,FU,9,non NK ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_non single cells.fcs,groupD,HHMA,FU,9,non single cells ,HHMA-FU,groupD
+"export_Broadpanel_HHMA-FU_009_Q2 CD8+ , CD4+.fcs",groupD,HHMA,FU,9,"Q2 CD8+ , CD4+ ",HHMA-FU,groupD
+"export_Broadpanel_HHMA-FU_009_Q4 CD8- , CD4-.fcs",groupD,HHMA,FU,9,"Q4 CD8- , CD4- ",HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_T-Helferzellen.fcs,groupD,HHMA,FU,9,T-Helferzellen ,HHMA-FU,groupD
+export_Broadpanel_HHMA-FU_009_zytotoxische T-Zellen.fcs,groupD,HHMA,FU,9,zytotoxische T-Zellen ,HHMA-FU,groupD
+export_Broadpanel_HHMA-TS_007_CD14+.fcs,groupD,HHMA,TS,7,CD14+ ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_CD19+.fcs,groupD,HHMA,TS,7,CD19+ ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_CD3+_MAIT Zellen.fcs,groupD,HHMA,TS,7,CD3+ MAIT Zellen,HHMA-TS,groupD
+"export_Broadpanel_HHMA-TS_007_CD56-, HLADr+_DCs.fcs",groupD,HHMA,TS,7,"CD56-, HLADr+ DCs",HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_NK bright.fcs,groupD,HHMA,TS,7,NK bright ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_NK dim.fcs,groupD,HHMA,TS,7,NK dim ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_non DCs.fcs,groupD,HHMA,TS,7,non DCs ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_non LD-.fcs,groupD,HHMA,TS,7,non LD- ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_non MAIT Zellen_gd T-Zellen.fcs,groupD,HHMA,TS,7,non MAIT Zellen gd T-Zellen,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_non NK.fcs,groupD,HHMA,TS,7,non NK ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_non single cells.fcs,groupD,HHMA,TS,7,non single cells ,HHMA-TS,groupD
+"export_Broadpanel_HHMA-TS_007_Q2 CD8+ , CD4+.fcs",groupD,HHMA,TS,7,"Q2 CD8+ , CD4+ ",HHMA-TS,groupD
+"export_Broadpanel_HHMA-TS_007_Q4 CD8- , CD4-.fcs",groupD,HHMA,TS,7,"Q4 CD8- , CD4- ",HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_T-Helferzellen.fcs,groupD,HHMA,TS,7,T-Helferzellen ,HHMA-TS,groupD
+export_Broadpanel_HHMA-TS_007_zytotoxische T-Zellen.fcs,groupD,HHMA,TS,7,zytotoxische T-Zellen ,HHMA-TS,groupD
+export_Broadpanel_MACA-EOT_005_CD14+.fcs,groupD,MACA,EOT,5,CD14+ ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_CD19+.fcs,groupD,MACA,EOT,5,CD19+ ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_CD3+_MAIT Zellen.fcs,groupD,MACA,EOT,5,CD3+ MAIT Zellen,MACA-EOT,groupD
+"export_Broadpanel_MACA-EOT_005_CD56-, HLADr+_DCs.fcs",groupD,MACA,EOT,5,"CD56-, HLADr+ DCs",MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_NK bright.fcs,groupD,MACA,EOT,5,NK bright ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_NK dim.fcs,groupD,MACA,EOT,5,NK dim ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_non DCs.fcs,groupD,MACA,EOT,5,non DCs ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_non LD-.fcs,groupD,MACA,EOT,5,non LD- ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_non MAIT Zellen_gd T-Zellen.fcs,groupD,MACA,EOT,5,non MAIT Zellen gd T-Zellen,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_non NK.fcs,groupD,MACA,EOT,5,non NK ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_non single cells.fcs,groupD,MACA,EOT,5,non single cells ,MACA-EOT,groupD
+"export_Broadpanel_MACA-EOT_005_Q2 CD8+ , CD4+.fcs",groupD,MACA,EOT,5,"Q2 CD8+ , CD4+ ",MACA-EOT,groupD
+"export_Broadpanel_MACA-EOT_005_Q4 CD8- , CD4-.fcs",groupD,MACA,EOT,5,"Q4 CD8- , CD4- ",MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_T-Helferzellen.fcs,groupD,MACA,EOT,5,T-Helferzellen ,MACA-EOT,groupD
+export_Broadpanel_MACA-EOT_005_zytotoxische T-Zellen.fcs,groupD,MACA,EOT,5,zytotoxische T-Zellen ,MACA-EOT,groupD
+export_Broadpanel_MACA-FU_006_CD14+.fcs,groupD,MACA,FU,6,CD14+ ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_CD19+.fcs,groupD,MACA,FU,6,CD19+ ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_CD3+_MAIT Zellen.fcs,groupD,MACA,FU,6,CD3+ MAIT Zellen,MACA-FU,groupD
+"export_Broadpanel_MACA-FU_006_CD56-, HLADr+_DCs.fcs",groupD,MACA,FU,6,"CD56-, HLADr+ DCs",MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_NK bright.fcs,groupD,MACA,FU,6,NK bright ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_NK dim.fcs,groupD,MACA,FU,6,NK dim ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_non DCs.fcs,groupD,MACA,FU,6,non DCs ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_non LD-.fcs,groupD,MACA,FU,6,non LD- ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_non MAIT Zellen_gd T-Zellen.fcs,groupD,MACA,FU,6,non MAIT Zellen gd T-Zellen,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_non NK.fcs,groupD,MACA,FU,6,non NK ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_non single cells.fcs,groupD,MACA,FU,6,non single cells ,MACA-FU,groupD
+"export_Broadpanel_MACA-FU_006_Q2 CD8+ , CD4+.fcs",groupD,MACA,FU,6,"Q2 CD8+ , CD4+ ",MACA-FU,groupD
+"export_Broadpanel_MACA-FU_006_Q4 CD8- , CD4-.fcs",groupD,MACA,FU,6,"Q4 CD8- , CD4- ",MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_T-Helferzellen.fcs,groupD,MACA,FU,6,T-Helferzellen ,MACA-FU,groupD
+export_Broadpanel_MACA-FU_006_zytotoxische T-Zellen.fcs,groupD,MACA,FU,6,zytotoxische T-Zellen ,MACA-FU,groupD
+export_Broadpanel_MACA-TS_004_CD14+.fcs,groupD,MACA,TS,4,CD14+ ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_CD19+.fcs,groupD,MACA,TS,4,CD19+ ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_CD3+_MAIT Zellen.fcs,groupD,MACA,TS,4,CD3+ MAIT Zellen,MACA-TS,groupD
+"export_Broadpanel_MACA-TS_004_CD56-, HLADr+_DCs.fcs",groupD,MACA,TS,4,"CD56-, HLADr+ DCs",MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_NK bright.fcs,groupD,MACA,TS,4,NK bright ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_NK dim.fcs,groupD,MACA,TS,4,NK dim ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_non DCs.fcs,groupD,MACA,TS,4,non DCs ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_non LD-.fcs,groupD,MACA,TS,4,non LD- ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_non MAIT Zellen_gd T-Zellen.fcs,groupD,MACA,TS,4,non MAIT Zellen gd T-Zellen,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_non NK.fcs,groupD,MACA,TS,4,non NK ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_non single cells.fcs,groupD,MACA,TS,4,non single cells ,MACA-TS,groupD
+"export_Broadpanel_MACA-TS_004_Q2 CD8+ , CD4+.fcs",groupD,MACA,TS,4,"Q2 CD8+ , CD4+ ",MACA-TS,groupD
+"export_Broadpanel_MACA-TS_004_Q4 CD8- , CD4-.fcs",groupD,MACA,TS,4,"Q4 CD8- , CD4- ",MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_T-Helferzellen.fcs,groupD,MACA,TS,4,T-Helferzellen ,MACA-TS,groupD
+export_Broadpanel_MACA-TS_004_zytotoxische T-Zellen.fcs,groupD,MACA,TS,4,zytotoxische T-Zellen ,MACA-TS,groupD
+export_Broadpanel_MLDT-EOT_002_CD14+.fcs,groupD,MLDT,EOT,2,CD14+ ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_CD19+.fcs,groupD,MLDT,EOT,2,CD19+ ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_CD3+_MAIT Zellen.fcs,groupD,MLDT,EOT,2,CD3+ MAIT Zellen,MLDT-EOT,groupD
+"export_Broadpanel_MLDT-EOT_002_CD56-, HLADr+_DCs.fcs",groupD,MLDT,EOT,2,"CD56-, HLADr+ DCs",MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_NK bright.fcs,groupD,MLDT,EOT,2,NK bright ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_NK dim.fcs,groupD,MLDT,EOT,2,NK dim ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_non DCs.fcs,groupD,MLDT,EOT,2,non DCs ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_non LD-.fcs,groupD,MLDT,EOT,2,non LD- ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_non MAIT Zellen_gd T-Zellen.fcs,groupD,MLDT,EOT,2,non MAIT Zellen gd T-Zellen,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_non NK.fcs,groupD,MLDT,EOT,2,non NK ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_non single cells.fcs,groupD,MLDT,EOT,2,non single cells ,MLDT-EOT,groupD
+"export_Broadpanel_MLDT-EOT_002_Q2 CD8+ , CD4+.fcs",groupD,MLDT,EOT,2,"Q2 CD8+ , CD4+ ",MLDT-EOT,groupD
+"export_Broadpanel_MLDT-EOT_002_Q4 CD8- , CD4-.fcs",groupD,MLDT,EOT,2,"Q4 CD8- , CD4- ",MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_T-Helferzellen.fcs,groupD,MLDT,EOT,2,T-Helferzellen ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-EOT_002_zytotoxische T-Zellen.fcs,groupD,MLDT,EOT,2,zytotoxische T-Zellen ,MLDT-EOT,groupD
+export_Broadpanel_MLDT-FU_003_CD14+.fcs,groupD,MLDT,FU,3,CD14+ ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_CD19+.fcs,groupD,MLDT,FU,3,CD19+ ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_CD3+_MAIT Zellen.fcs,groupD,MLDT,FU,3,CD3+ MAIT Zellen,MLDT-FU,groupD
+"export_Broadpanel_MLDT-FU_003_CD56-, HLADr+_DCs.fcs",groupD,MLDT,FU,3,"CD56-, HLADr+ DCs",MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_NK bright.fcs,groupD,MLDT,FU,3,NK bright ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_NK dim.fcs,groupD,MLDT,FU,3,NK dim ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_non DCs.fcs,groupD,MLDT,FU,3,non DCs ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_non LD-.fcs,groupD,MLDT,FU,3,non LD- ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_non MAIT Zellen_gd T-Zellen.fcs,groupD,MLDT,FU,3,non MAIT Zellen gd T-Zellen,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_non NK.fcs,groupD,MLDT,FU,3,non NK ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_non single cells.fcs,groupD,MLDT,FU,3,non single cells ,MLDT-FU,groupD
+"export_Broadpanel_MLDT-FU_003_Q2 CD8+ , CD4+.fcs",groupD,MLDT,FU,3,"Q2 CD8+ , CD4+ ",MLDT-FU,groupD
+"export_Broadpanel_MLDT-FU_003_Q4 CD8- , CD4-.fcs",groupD,MLDT,FU,3,"Q4 CD8- , CD4- ",MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_T-Helferzellen.fcs,groupD,MLDT,FU,3,T-Helferzellen ,MLDT-FU,groupD
+export_Broadpanel_MLDT-FU_003_zytotoxische T-Zellen.fcs,groupD,MLDT,FU,3,zytotoxische T-Zellen ,MLDT-FU,groupD
+export_Broadpanel_MLDT-TS_001_CD14+.fcs,groupD,MLDT,TS,1,CD14+ ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_CD19+.fcs,groupD,MLDT,TS,1,CD19+ ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_CD3+_MAIT Zellen.fcs,groupD,MLDT,TS,1,CD3+ MAIT Zellen,MLDT-TS,groupD
+"export_Broadpanel_MLDT-TS_001_CD56-, HLADr+_DCs.fcs",groupD,MLDT,TS,1,"CD56-, HLADr+ DCs",MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_NK bright.fcs,groupD,MLDT,TS,1,NK bright ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_NK dim.fcs,groupD,MLDT,TS,1,NK dim ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_non DCs.fcs,groupD,MLDT,TS,1,non DCs ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_non LD-.fcs,groupD,MLDT,TS,1,non LD- ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_non MAIT Zellen_gd T-Zellen.fcs,groupD,MLDT,TS,1,non MAIT Zellen gd T-Zellen,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_non NK.fcs,groupD,MLDT,TS,1,non NK ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_non single cells.fcs,groupD,MLDT,TS,1,non single cells ,MLDT-TS,groupD
+"export_Broadpanel_MLDT-TS_001_Q2 CD8+ , CD4+.fcs",groupD,MLDT,TS,1,"Q2 CD8+ , CD4+ ",MLDT-TS,groupD
+"export_Broadpanel_MLDT-TS_001_Q4 CD8- , CD4-.fcs",groupD,MLDT,TS,1,"Q4 CD8- , CD4- ",MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_T-Helferzellen.fcs,groupD,MLDT,TS,1,T-Helferzellen ,MLDT-TS,groupD
+export_Broadpanel_MLDT-TS_001_zytotoxische T-Zellen.fcs,groupD,MLDT,TS,1,zytotoxische T-Zellen ,MLDT-TS,groupD
+export_Broadpanel_AEHO-EOT_005_CD14+.fcs,groupE,AEHO,EOT,5,CD14+ ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_CD19+.fcs,groupE,AEHO,EOT,5,CD19+ ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_CD3+_MAIT Zellen.fcs,groupE,AEHO,EOT,5,CD3+ MAIT Zellen,AEHO-EOT,groupE
+"export_Broadpanel_AEHO-EOT_005_CD56-, HLADr+_DCs.fcs",groupE,AEHO,EOT,5,"CD56-, HLADr+ DCs",AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_NK bright.fcs,groupE,AEHO,EOT,5,NK bright ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_NK dim.fcs,groupE,AEHO,EOT,5,NK dim ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_non DCs.fcs,groupE,AEHO,EOT,5,non DCs ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_non LD-.fcs,groupE,AEHO,EOT,5,non LD- ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_non MAIT Zellen_gd T-Zellen.fcs,groupE,AEHO,EOT,5,non MAIT Zellen gd T-Zellen,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_non NK.fcs,groupE,AEHO,EOT,5,non NK ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_non single cells.fcs,groupE,AEHO,EOT,5,non single cells ,AEHO-EOT,groupE
+"export_Broadpanel_AEHO-EOT_005_Q2 CD8+ , CD4+.fcs",groupE,AEHO,EOT,5,"Q2 CD8+ , CD4+ ",AEHO-EOT,groupE
+"export_Broadpanel_AEHO-EOT_005_Q4 CD8- , CD4-.fcs",groupE,AEHO,EOT,5,"Q4 CD8- , CD4- ",AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_T-Helferzellen.fcs,groupE,AEHO,EOT,5,T-Helferzellen ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-EOT_005_zytotoxische T-Zellen.fcs,groupE,AEHO,EOT,5,zytotoxische T-Zellen ,AEHO-EOT,groupE
+export_Broadpanel_AEHO-FU_006_CD14+.fcs,groupE,AEHO,FU,6,CD14+ ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_CD19+.fcs,groupE,AEHO,FU,6,CD19+ ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_CD3+_MAIT Zellen.fcs,groupE,AEHO,FU,6,CD3+ MAIT Zellen,AEHO-FU,groupE
+"export_Broadpanel_AEHO-FU_006_CD56-, HLADr+_DCs.fcs",groupE,AEHO,FU,6,"CD56-, HLADr+ DCs",AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_NK bright.fcs,groupE,AEHO,FU,6,NK bright ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_NK dim.fcs,groupE,AEHO,FU,6,NK dim ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_non DCs.fcs,groupE,AEHO,FU,6,non DCs ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_non LD-.fcs,groupE,AEHO,FU,6,non LD- ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_non MAIT Zellen_gd T-Zellen.fcs,groupE,AEHO,FU,6,non MAIT Zellen gd T-Zellen,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_non NK.fcs,groupE,AEHO,FU,6,non NK ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_non single cells.fcs,groupE,AEHO,FU,6,non single cells ,AEHO-FU,groupE
+"export_Broadpanel_AEHO-FU_006_Q2 CD8+ , CD4+.fcs",groupE,AEHO,FU,6,"Q2 CD8+ , CD4+ ",AEHO-FU,groupE
+"export_Broadpanel_AEHO-FU_006_Q4 CD8- , CD4-.fcs",groupE,AEHO,FU,6,"Q4 CD8- , CD4- ",AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_T-Helferzellen.fcs,groupE,AEHO,FU,6,T-Helferzellen ,AEHO-FU,groupE
+export_Broadpanel_AEHO-FU_006_zytotoxische T-Zellen.fcs,groupE,AEHO,FU,6,zytotoxische T-Zellen ,AEHO-FU,groupE
+export_Broadpanel_AEHO-TS_004_CD14+.fcs,groupE,AEHO,TS,4,CD14+ ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_CD19+.fcs,groupE,AEHO,TS,4,CD19+ ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_CD3+_MAIT Zellen.fcs,groupE,AEHO,TS,4,CD3+ MAIT Zellen,AEHO-TS,groupE
+"export_Broadpanel_AEHO-TS_004_CD56-, HLADr+_DCs.fcs",groupE,AEHO,TS,4,"CD56-, HLADr+ DCs",AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_NK bright.fcs,groupE,AEHO,TS,4,NK bright ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_NK dim.fcs,groupE,AEHO,TS,4,NK dim ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_non DCs.fcs,groupE,AEHO,TS,4,non DCs ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_non LD-.fcs,groupE,AEHO,TS,4,non LD- ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_non MAIT Zellen_gd T-Zellen.fcs,groupE,AEHO,TS,4,non MAIT Zellen gd T-Zellen,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_non NK.fcs,groupE,AEHO,TS,4,non NK ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_non single cells.fcs,groupE,AEHO,TS,4,non single cells ,AEHO-TS,groupE
+"export_Broadpanel_AEHO-TS_004_Q2 CD8+ , CD4+.fcs",groupE,AEHO,TS,4,"Q2 CD8+ , CD4+ ",AEHO-TS,groupE
+"export_Broadpanel_AEHO-TS_004_Q4 CD8- , CD4-.fcs",groupE,AEHO,TS,4,"Q4 CD8- , CD4- ",AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_T-Helferzellen.fcs,groupE,AEHO,TS,4,T-Helferzellen ,AEHO-TS,groupE
+export_Broadpanel_AEHO-TS_004_zytotoxische T-Zellen.fcs,groupE,AEHO,TS,4,zytotoxische T-Zellen ,AEHO-TS,groupE
+export_Broadpanel_MLL-EOT_011_CD14+.fcs,groupE,MLL,EOT,11,CD14+ ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_CD19+.fcs,groupE,MLL,EOT,11,CD19+ ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_CD3+_MAIT Zellen.fcs,groupE,MLL,EOT,11,CD3+ MAIT Zellen,MLL-EOT,groupE
+"export_Broadpanel_MLL-EOT_011_CD56-, HLADr+_DCs.fcs",groupE,MLL,EOT,11,"CD56-, HLADr+ DCs",MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_NK bright.fcs,groupE,MLL,EOT,11,NK bright ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_NK dim.fcs,groupE,MLL,EOT,11,NK dim ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_non DCs.fcs,groupE,MLL,EOT,11,non DCs ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_non LD-.fcs,groupE,MLL,EOT,11,non LD- ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_non MAIT Zellen_gd T-Zellen.fcs,groupE,MLL,EOT,11,non MAIT Zellen gd T-Zellen,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_non NK.fcs,groupE,MLL,EOT,11,non NK ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_non single cells.fcs,groupE,MLL,EOT,11,non single cells ,MLL-EOT,groupE
+"export_Broadpanel_MLL-EOT_011_Q2 CD8+ , CD4+.fcs",groupE,MLL,EOT,11,"Q2 CD8+ , CD4+ ",MLL-EOT,groupE
+"export_Broadpanel_MLL-EOT_011_Q4 CD8- , CD4-.fcs",groupE,MLL,EOT,11,"Q4 CD8- , CD4- ",MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_T-Helferzellen.fcs,groupE,MLL,EOT,11,T-Helferzellen ,MLL-EOT,groupE
+export_Broadpanel_MLL-EOT_011_zytotoxische T-Zellen.fcs,groupE,MLL,EOT,11,zytotoxische T-Zellen ,MLL-EOT,groupE
+export_Broadpanel_MLL-FU_012_CD14+.fcs,groupE,MLL,FU,12,CD14+ ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_CD19+.fcs,groupE,MLL,FU,12,CD19+ ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_CD3+_MAIT Zellen.fcs,groupE,MLL,FU,12,CD3+ MAIT Zellen,MLL-FU,groupE
+"export_Broadpanel_MLL-FU_012_CD56-, HLADr+_DCs.fcs",groupE,MLL,FU,12,"CD56-, HLADr+ DCs",MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_NK bright.fcs,groupE,MLL,FU,12,NK bright ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_NK dim.fcs,groupE,MLL,FU,12,NK dim ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_non DCs.fcs,groupE,MLL,FU,12,non DCs ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_non LD-.fcs,groupE,MLL,FU,12,non LD- ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_non MAIT Zellen_gd T-Zellen.fcs,groupE,MLL,FU,12,non MAIT Zellen gd T-Zellen,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_non NK.fcs,groupE,MLL,FU,12,non NK ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_non single cells.fcs,groupE,MLL,FU,12,non single cells ,MLL-FU,groupE
+"export_Broadpanel_MLL-FU_012_Q2 CD8+ , CD4+.fcs",groupE,MLL,FU,12,"Q2 CD8+ , CD4+ ",MLL-FU,groupE
+"export_Broadpanel_MLL-FU_012_Q4 CD8- , CD4-.fcs",groupE,MLL,FU,12,"Q4 CD8- , CD4- ",MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_T-Helferzellen.fcs,groupE,MLL,FU,12,T-Helferzellen ,MLL-FU,groupE
+export_Broadpanel_MLL-FU_012_zytotoxische T-Zellen.fcs,groupE,MLL,FU,12,zytotoxische T-Zellen ,MLL-FU,groupE
+export_Broadpanel_MLL-TS_010_CD14+.fcs,groupE,MLL,TS,10,CD14+ ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_CD19+.fcs,groupE,MLL,TS,10,CD19+ ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_CD3+_MAIT Zellen.fcs,groupE,MLL,TS,10,CD3+ MAIT Zellen,MLL-TS,groupE
+"export_Broadpanel_MLL-TS_010_CD56-, HLADr+_DCs.fcs",groupE,MLL,TS,10,"CD56-, HLADr+ DCs",MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_NK bright.fcs,groupE,MLL,TS,10,NK bright ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_NK dim.fcs,groupE,MLL,TS,10,NK dim ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_non DCs.fcs,groupE,MLL,TS,10,non DCs ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_non LD-.fcs,groupE,MLL,TS,10,non LD- ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_non MAIT Zellen_gd T-Zellen.fcs,groupE,MLL,TS,10,non MAIT Zellen gd T-Zellen,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_non NK.fcs,groupE,MLL,TS,10,non NK ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_non single cells.fcs,groupE,MLL,TS,10,non single cells ,MLL-TS,groupE
+"export_Broadpanel_MLL-TS_010_Q2 CD8+ , CD4+.fcs",groupE,MLL,TS,10,"Q2 CD8+ , CD4+ ",MLL-TS,groupE
+"export_Broadpanel_MLL-TS_010_Q4 CD8- , CD4-.fcs",groupE,MLL,TS,10,"Q4 CD8- , CD4- ",MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_T-Helferzellen.fcs,groupE,MLL,TS,10,T-Helferzellen ,MLL-TS,groupE
+export_Broadpanel_MLL-TS_010_zytotoxische T-Zellen.fcs,groupE,MLL,TS,10,zytotoxische T-Zellen ,MLL-TS,groupE
+export_Broadpanel_SARK-EOT_002_CD14+.fcs,groupE,SARK,EOT,2,CD14+ ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_CD19+.fcs,groupE,SARK,EOT,2,CD19+ ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_CD3+_MAIT Zellen.fcs,groupE,SARK,EOT,2,CD3+ MAIT Zellen,SARK-EOT,groupE
+"export_Broadpanel_SARK-EOT_002_CD56-, HLADr+_DCs.fcs",groupE,SARK,EOT,2,"CD56-, HLADr+ DCs",SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_NK bright.fcs,groupE,SARK,EOT,2,NK bright ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_NK dim.fcs,groupE,SARK,EOT,2,NK dim ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_non DCs.fcs,groupE,SARK,EOT,2,non DCs ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_non LD-.fcs,groupE,SARK,EOT,2,non LD- ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_non MAIT Zellen_gd T-Zellen.fcs,groupE,SARK,EOT,2,non MAIT Zellen gd T-Zellen,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_non NK.fcs,groupE,SARK,EOT,2,non NK ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_non single cells.fcs,groupE,SARK,EOT,2,non single cells ,SARK-EOT,groupE
+"export_Broadpanel_SARK-EOT_002_Q2 CD8+ , CD4+.fcs",groupE,SARK,EOT,2,"Q2 CD8+ , CD4+ ",SARK-EOT,groupE
+"export_Broadpanel_SARK-EOT_002_Q4 CD8- , CD4-.fcs",groupE,SARK,EOT,2,"Q4 CD8- , CD4- ",SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_T-Helferzellen.fcs,groupE,SARK,EOT,2,T-Helferzellen ,SARK-EOT,groupE
+export_Broadpanel_SARK-EOT_002_zytotoxische T-Zellen.fcs,groupE,SARK,EOT,2,zytotoxische T-Zellen ,SARK-EOT,groupE
+export_Broadpanel_SARK-FU_003_CD14+.fcs,groupE,SARK,FU,3,CD14+ ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_CD19+.fcs,groupE,SARK,FU,3,CD19+ ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_CD3+_MAIT Zellen.fcs,groupE,SARK,FU,3,CD3+ MAIT Zellen,SARK-FU,groupE
+"export_Broadpanel_SARK-FU_003_CD56-, HLADr+_DCs.fcs",groupE,SARK,FU,3,"CD56-, HLADr+ DCs",SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_NK bright.fcs,groupE,SARK,FU,3,NK bright ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_NK dim.fcs,groupE,SARK,FU,3,NK dim ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_non DCs.fcs,groupE,SARK,FU,3,non DCs ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_non LD-.fcs,groupE,SARK,FU,3,non LD- ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_non MAIT Zellen_gd T-Zellen.fcs,groupE,SARK,FU,3,non MAIT Zellen gd T-Zellen,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_non NK.fcs,groupE,SARK,FU,3,non NK ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_non single cells.fcs,groupE,SARK,FU,3,non single cells ,SARK-FU,groupE
+"export_Broadpanel_SARK-FU_003_Q2 CD8+ , CD4+.fcs",groupE,SARK,FU,3,"Q2 CD8+ , CD4+ ",SARK-FU,groupE
+"export_Broadpanel_SARK-FU_003_Q4 CD8- , CD4-.fcs",groupE,SARK,FU,3,"Q4 CD8- , CD4- ",SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_T-Helferzellen.fcs,groupE,SARK,FU,3,T-Helferzellen ,SARK-FU,groupE
+export_Broadpanel_SARK-FU_003_zytotoxische T-Zellen.fcs,groupE,SARK,FU,3,zytotoxische T-Zellen ,SARK-FU,groupE
+export_Broadpanel_SARK-TS_001_CD14+.fcs,groupE,SARK,TS,1,CD14+ ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_CD19+.fcs,groupE,SARK,TS,1,CD19+ ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_CD3+_MAIT Zellen.fcs,groupE,SARK,TS,1,CD3+ MAIT Zellen,SARK-TS,groupE
+"export_Broadpanel_SARK-TS_001_CD56-, HLADr+_DCs.fcs",groupE,SARK,TS,1,"CD56-, HLADr+ DCs",SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_NK bright.fcs,groupE,SARK,TS,1,NK bright ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_NK dim.fcs,groupE,SARK,TS,1,NK dim ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_non DCs.fcs,groupE,SARK,TS,1,non DCs ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_non LD-.fcs,groupE,SARK,TS,1,non LD- ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_non MAIT Zellen_gd T-Zellen.fcs,groupE,SARK,TS,1,non MAIT Zellen gd T-Zellen,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_non NK.fcs,groupE,SARK,TS,1,non NK ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_non single cells.fcs,groupE,SARK,TS,1,non single cells ,SARK-TS,groupE
+"export_Broadpanel_SARK-TS_001_Q2 CD8+ , CD4+.fcs",groupE,SARK,TS,1,"Q2 CD8+ , CD4+ ",SARK-TS,groupE
+"export_Broadpanel_SARK-TS_001_Q4 CD8- , CD4-.fcs",groupE,SARK,TS,1,"Q4 CD8- , CD4- ",SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_T-Helferzellen.fcs,groupE,SARK,TS,1,T-Helferzellen ,SARK-TS,groupE
+export_Broadpanel_SARK-TS_001_zytotoxische T-Zellen.fcs,groupE,SARK,TS,1,zytotoxische T-Zellen ,SARK-TS,groupE
+export_Broadpanel_WGWK-EOT_008_CD14+.fcs,groupE,WGWK,EOT,8,CD14+ ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_CD19+.fcs,groupE,WGWK,EOT,8,CD19+ ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_CD3+_MAIT Zellen.fcs,groupE,WGWK,EOT,8,CD3+ MAIT Zellen,WGWK-EOT,groupE
+"export_Broadpanel_WGWK-EOT_008_CD56-, HLADr+_DCs.fcs",groupE,WGWK,EOT,8,"CD56-, HLADr+ DCs",WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_NK bright.fcs,groupE,WGWK,EOT,8,NK bright ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_NK dim.fcs,groupE,WGWK,EOT,8,NK dim ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_non DCs.fcs,groupE,WGWK,EOT,8,non DCs ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_non LD-.fcs,groupE,WGWK,EOT,8,non LD- ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_non MAIT Zellen_gd T-Zellen.fcs,groupE,WGWK,EOT,8,non MAIT Zellen gd T-Zellen,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_non NK.fcs,groupE,WGWK,EOT,8,non NK ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_non single cells.fcs,groupE,WGWK,EOT,8,non single cells ,WGWK-EOT,groupE
+"export_Broadpanel_WGWK-EOT_008_Q2 CD8+ , CD4+.fcs",groupE,WGWK,EOT,8,"Q2 CD8+ , CD4+ ",WGWK-EOT,groupE
+"export_Broadpanel_WGWK-EOT_008_Q4 CD8- , CD4-.fcs",groupE,WGWK,EOT,8,"Q4 CD8- , CD4- ",WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_T-Helferzellen.fcs,groupE,WGWK,EOT,8,T-Helferzellen ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-EOT_008_zytotoxische T-Zellen.fcs,groupE,WGWK,EOT,8,zytotoxische T-Zellen ,WGWK-EOT,groupE
+export_Broadpanel_WGWK-FU_009_CD14+.fcs,groupE,WGWK,FU,9,CD14+ ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_CD19+.fcs,groupE,WGWK,FU,9,CD19+ ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_CD3+_MAIT Zellen.fcs,groupE,WGWK,FU,9,CD3+ MAIT Zellen,WGWK-FU,groupE
+"export_Broadpanel_WGWK-FU_009_CD56-, HLADr+_DCs.fcs",groupE,WGWK,FU,9,"CD56-, HLADr+ DCs",WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_NK bright.fcs,groupE,WGWK,FU,9,NK bright ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_NK dim.fcs,groupE,WGWK,FU,9,NK dim ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_non DCs.fcs,groupE,WGWK,FU,9,non DCs ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_non LD-.fcs,groupE,WGWK,FU,9,non LD- ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_non MAIT Zellen_gd T-Zellen.fcs,groupE,WGWK,FU,9,non MAIT Zellen gd T-Zellen,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_non NK.fcs,groupE,WGWK,FU,9,non NK ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_non single cells.fcs,groupE,WGWK,FU,9,non single cells ,WGWK-FU,groupE
+"export_Broadpanel_WGWK-FU_009_Q2 CD8+ , CD4+.fcs",groupE,WGWK,FU,9,"Q2 CD8+ , CD4+ ",WGWK-FU,groupE
+"export_Broadpanel_WGWK-FU_009_Q4 CD8- , CD4-.fcs",groupE,WGWK,FU,9,"Q4 CD8- , CD4- ",WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_T-Helferzellen.fcs,groupE,WGWK,FU,9,T-Helferzellen ,WGWK-FU,groupE
+export_Broadpanel_WGWK-FU_009_zytotoxische T-Zellen.fcs,groupE,WGWK,FU,9,zytotoxische T-Zellen ,WGWK-FU,groupE
+export_Broadpanel_WGWK-TS_007_CD14+.fcs,groupE,WGWK,TS,7,CD14+ ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_CD19+.fcs,groupE,WGWK,TS,7,CD19+ ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_CD3+_MAIT Zellen.fcs,groupE,WGWK,TS,7,CD3+ MAIT Zellen,WGWK-TS,groupE
+"export_Broadpanel_WGWK-TS_007_CD56-, HLADr+_DCs.fcs",groupE,WGWK,TS,7,"CD56-, HLADr+ DCs",WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_NK bright.fcs,groupE,WGWK,TS,7,NK bright ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_NK dim.fcs,groupE,WGWK,TS,7,NK dim ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_non DCs.fcs,groupE,WGWK,TS,7,non DCs ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_non LD-.fcs,groupE,WGWK,TS,7,non LD- ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_non MAIT Zellen_gd T-Zellen.fcs,groupE,WGWK,TS,7,non MAIT Zellen gd T-Zellen,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_non NK.fcs,groupE,WGWK,TS,7,non NK ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_non single cells.fcs,groupE,WGWK,TS,7,non single cells ,WGWK-TS,groupE
+"export_Broadpanel_WGWK-TS_007_Q2 CD8+ , CD4+.fcs",groupE,WGWK,TS,7,"Q2 CD8+ , CD4+ ",WGWK-TS,groupE
+"export_Broadpanel_WGWK-TS_007_Q4 CD8- , CD4-.fcs",groupE,WGWK,TS,7,"Q4 CD8- , CD4- ",WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_T-Helferzellen.fcs,groupE,WGWK,TS,7,T-Helferzellen ,WGWK-TS,groupE
+export_Broadpanel_WGWK-TS_007_zytotoxische T-Zellen.fcs,groupE,WGWK,TS,7,zytotoxische T-Zellen ,WGWK-TS,groupE
+export_Broadpanel_CEF-EOT_008_CD14+.fcs,groupF,CEF,EOT,8,CD14+ ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_CD19+.fcs,groupF,CEF,EOT,8,CD19+ ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_CD3+_MAIT Zellen.fcs,groupF,CEF,EOT,8,CD3+ MAIT Zellen,CEF-EOT,groupF
+"export_Broadpanel_CEF-EOT_008_CD56-, HLADr+_DCs.fcs",groupF,CEF,EOT,8,"CD56-, HLADr+ DCs",CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_NK bright.fcs,groupF,CEF,EOT,8,NK bright ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_NK dim.fcs,groupF,CEF,EOT,8,NK dim ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_non DCs.fcs,groupF,CEF,EOT,8,non DCs ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_non LD-.fcs,groupF,CEF,EOT,8,non LD- ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_non MAIT Zellen_gd T-Zellen.fcs,groupF,CEF,EOT,8,non MAIT Zellen gd T-Zellen,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_non NK.fcs,groupF,CEF,EOT,8,non NK ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_non single cells.fcs,groupF,CEF,EOT,8,non single cells ,CEF-EOT,groupF
+"export_Broadpanel_CEF-EOT_008_Q2 CD8+ , CD4+.fcs",groupF,CEF,EOT,8,"Q2 CD8+ , CD4+ ",CEF-EOT,groupF
+"export_Broadpanel_CEF-EOT_008_Q4 CD8- , CD4-.fcs",groupF,CEF,EOT,8,"Q4 CD8- , CD4- ",CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_T-Helferzellen.fcs,groupF,CEF,EOT,8,T-Helferzellen ,CEF-EOT,groupF
+export_Broadpanel_CEF-EOT_008_zytotoxische T-Zellen.fcs,groupF,CEF,EOT,8,zytotoxische T-Zellen ,CEF-EOT,groupF
+export_Broadpanel_CEF-FU_009_CD14+.fcs,groupF,CEF,FU,9,CD14+ ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_CD19+.fcs,groupF,CEF,FU,9,CD19+ ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_CD3+_MAIT Zellen.fcs,groupF,CEF,FU,9,CD3+ MAIT Zellen,CEF-FU,groupF
+"export_Broadpanel_CEF-FU_009_CD56-, HLADr+_DCs.fcs",groupF,CEF,FU,9,"CD56-, HLADr+ DCs",CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_NK bright.fcs,groupF,CEF,FU,9,NK bright ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_NK dim.fcs,groupF,CEF,FU,9,NK dim ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_non DCs.fcs,groupF,CEF,FU,9,non DCs ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_non LD-.fcs,groupF,CEF,FU,9,non LD- ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_non MAIT Zellen_gd T-Zellen.fcs,groupF,CEF,FU,9,non MAIT Zellen gd T-Zellen,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_non NK.fcs,groupF,CEF,FU,9,non NK ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_non single cells.fcs,groupF,CEF,FU,9,non single cells ,CEF-FU,groupF
+"export_Broadpanel_CEF-FU_009_Q2 CD8+ , CD4+.fcs",groupF,CEF,FU,9,"Q2 CD8+ , CD4+ ",CEF-FU,groupF
+"export_Broadpanel_CEF-FU_009_Q4 CD8- , CD4-.fcs",groupF,CEF,FU,9,"Q4 CD8- , CD4- ",CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_T-Helferzellen.fcs,groupF,CEF,FU,9,T-Helferzellen ,CEF-FU,groupF
+export_Broadpanel_CEF-FU_009_zytotoxische T-Zellen.fcs,groupF,CEF,FU,9,zytotoxische T-Zellen ,CEF-FU,groupF
+export_Broadpanel_CEF-TS_007_CD14+.fcs,groupF,CEF,TS,7,CD14+ ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_CD19+.fcs,groupF,CEF,TS,7,CD19+ ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_CD3+_MAIT Zellen.fcs,groupF,CEF,TS,7,CD3+ MAIT Zellen,CEF-TS,groupF
+"export_Broadpanel_CEF-TS_007_CD56-, HLADr+_DCs.fcs",groupF,CEF,TS,7,"CD56-, HLADr+ DCs",CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_NK bright.fcs,groupF,CEF,TS,7,NK bright ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_NK dim.fcs,groupF,CEF,TS,7,NK dim ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_non DCs.fcs,groupF,CEF,TS,7,non DCs ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_non LD-.fcs,groupF,CEF,TS,7,non LD- ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_non MAIT Zellen_gd T-Zellen.fcs,groupF,CEF,TS,7,non MAIT Zellen gd T-Zellen,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_non NK.fcs,groupF,CEF,TS,7,non NK ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_non single cells.fcs,groupF,CEF,TS,7,non single cells ,CEF-TS,groupF
+"export_Broadpanel_CEF-TS_007_Q2 CD8+ , CD4+.fcs",groupF,CEF,TS,7,"Q2 CD8+ , CD4+ ",CEF-TS,groupF
+"export_Broadpanel_CEF-TS_007_Q4 CD8- , CD4-.fcs",groupF,CEF,TS,7,"Q4 CD8- , CD4- ",CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_T-Helferzellen.fcs,groupF,CEF,TS,7,T-Helferzellen ,CEF-TS,groupF
+export_Broadpanel_CEF-TS_007_zytotoxische T-Zellen.fcs,groupF,CEF,TS,7,zytotoxische T-Zellen ,CEF-TS,groupF
+export_Broadpanel_GRBS-EOT_005_CD14+.fcs,groupF,GRBS,EOT,5,CD14+ ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_CD19+.fcs,groupF,GRBS,EOT,5,CD19+ ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_CD3+_MAIT Zellen.fcs,groupF,GRBS,EOT,5,CD3+ MAIT Zellen,GRBS-EOT,groupF
+"export_Broadpanel_GRBS-EOT_005_CD56-, HLADr+_DCs.fcs",groupF,GRBS,EOT,5,"CD56-, HLADr+ DCs",GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_NK bright.fcs,groupF,GRBS,EOT,5,NK bright ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_NK dim.fcs,groupF,GRBS,EOT,5,NK dim ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_non DCs.fcs,groupF,GRBS,EOT,5,non DCs ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_non LD-.fcs,groupF,GRBS,EOT,5,non LD- ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_non MAIT Zellen_gd T-Zellen.fcs,groupF,GRBS,EOT,5,non MAIT Zellen gd T-Zellen,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_non NK.fcs,groupF,GRBS,EOT,5,non NK ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_non single cells.fcs,groupF,GRBS,EOT,5,non single cells ,GRBS-EOT,groupF
+"export_Broadpanel_GRBS-EOT_005_Q2 CD8+ , CD4+.fcs",groupF,GRBS,EOT,5,"Q2 CD8+ , CD4+ ",GRBS-EOT,groupF
+"export_Broadpanel_GRBS-EOT_005_Q4 CD8- , CD4-.fcs",groupF,GRBS,EOT,5,"Q4 CD8- , CD4- ",GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_T-Helferzellen.fcs,groupF,GRBS,EOT,5,T-Helferzellen ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-EOT_005_zytotoxische T-Zellen.fcs,groupF,GRBS,EOT,5,zytotoxische T-Zellen ,GRBS-EOT,groupF
+export_Broadpanel_GRBS-FU_006_CD14+.fcs,groupF,GRBS,FU,6,CD14+ ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_CD19+.fcs,groupF,GRBS,FU,6,CD19+ ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_CD3+_MAIT Zellen.fcs,groupF,GRBS,FU,6,CD3+ MAIT Zellen,GRBS-FU,groupF
+"export_Broadpanel_GRBS-FU_006_CD56-, HLADr+_DCs.fcs",groupF,GRBS,FU,6,"CD56-, HLADr+ DCs",GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_NK bright.fcs,groupF,GRBS,FU,6,NK bright ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_NK dim.fcs,groupF,GRBS,FU,6,NK dim ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_non DCs.fcs,groupF,GRBS,FU,6,non DCs ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_non LD-.fcs,groupF,GRBS,FU,6,non LD- ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_non MAIT Zellen_gd T-Zellen.fcs,groupF,GRBS,FU,6,non MAIT Zellen gd T-Zellen,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_non NK.fcs,groupF,GRBS,FU,6,non NK ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_non single cells.fcs,groupF,GRBS,FU,6,non single cells ,GRBS-FU,groupF
+"export_Broadpanel_GRBS-FU_006_Q2 CD8+ , CD4+.fcs",groupF,GRBS,FU,6,"Q2 CD8+ , CD4+ ",GRBS-FU,groupF
+"export_Broadpanel_GRBS-FU_006_Q4 CD8- , CD4-.fcs",groupF,GRBS,FU,6,"Q4 CD8- , CD4- ",GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_T-Helferzellen.fcs,groupF,GRBS,FU,6,T-Helferzellen ,GRBS-FU,groupF
+export_Broadpanel_GRBS-FU_006_zytotoxische T-Zellen.fcs,groupF,GRBS,FU,6,zytotoxische T-Zellen ,GRBS-FU,groupF
+export_Broadpanel_GRBS-TS_004_CD14+.fcs,groupF,GRBS,TS,4,CD14+ ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_CD19+.fcs,groupF,GRBS,TS,4,CD19+ ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_CD3+_MAIT Zellen.fcs,groupF,GRBS,TS,4,CD3+ MAIT Zellen,GRBS-TS,groupF
+"export_Broadpanel_GRBS-TS_004_CD56-, HLADr+_DCs.fcs",groupF,GRBS,TS,4,"CD56-, HLADr+ DCs",GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_NK bright.fcs,groupF,GRBS,TS,4,NK bright ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_NK dim.fcs,groupF,GRBS,TS,4,NK dim ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_non DCs.fcs,groupF,GRBS,TS,4,non DCs ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_non LD-.fcs,groupF,GRBS,TS,4,non LD- ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_non MAIT Zellen_gd T-Zellen.fcs,groupF,GRBS,TS,4,non MAIT Zellen gd T-Zellen,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_non NK.fcs,groupF,GRBS,TS,4,non NK ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_non single cells.fcs,groupF,GRBS,TS,4,non single cells ,GRBS-TS,groupF
+"export_Broadpanel_GRBS-TS_004_Q2 CD8+ , CD4+.fcs",groupF,GRBS,TS,4,"Q2 CD8+ , CD4+ ",GRBS-TS,groupF
+"export_Broadpanel_GRBS-TS_004_Q4 CD8- , CD4-.fcs",groupF,GRBS,TS,4,"Q4 CD8- , CD4- ",GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_T-Helferzellen.fcs,groupF,GRBS,TS,4,T-Helferzellen ,GRBS-TS,groupF
+export_Broadpanel_GRBS-TS_004_zytotoxische T-Zellen.fcs,groupF,GRBS,TS,4,zytotoxische T-Zellen ,GRBS-TS,groupF
+export_Broadpanel_HEH-EOT_002_CD14+.fcs,groupF,HEH,EOT,2,CD14+ ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_CD19+.fcs,groupF,HEH,EOT,2,CD19+ ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_CD3+_MAIT Zellen.fcs,groupF,HEH,EOT,2,CD3+ MAIT Zellen,HEH-EOT,groupF
+"export_Broadpanel_HEH-EOT_002_CD56-, HLADr+_DCs.fcs",groupF,HEH,EOT,2,"CD56-, HLADr+ DCs",HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_NK bright.fcs,groupF,HEH,EOT,2,NK bright ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_NK dim.fcs,groupF,HEH,EOT,2,NK dim ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_non DCs.fcs,groupF,HEH,EOT,2,non DCs ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_non LD-.fcs,groupF,HEH,EOT,2,non LD- ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_non MAIT Zellen_gd T-Zellen.fcs,groupF,HEH,EOT,2,non MAIT Zellen gd T-Zellen,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_non NK.fcs,groupF,HEH,EOT,2,non NK ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_non single cells.fcs,groupF,HEH,EOT,2,non single cells ,HEH-EOT,groupF
+"export_Broadpanel_HEH-EOT_002_Q2 CD8+ , CD4+.fcs",groupF,HEH,EOT,2,"Q2 CD8+ , CD4+ ",HEH-EOT,groupF
+"export_Broadpanel_HEH-EOT_002_Q4 CD8- , CD4-.fcs",groupF,HEH,EOT,2,"Q4 CD8- , CD4- ",HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_T-Helferzellen.fcs,groupF,HEH,EOT,2,T-Helferzellen ,HEH-EOT,groupF
+export_Broadpanel_HEH-EOT_002_zytotoxische T-Zellen.fcs,groupF,HEH,EOT,2,zytotoxische T-Zellen ,HEH-EOT,groupF
+export_Broadpanel_HEH-FU_003_CD14+.fcs,groupF,HEH,FU,3,CD14+ ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_CD19+.fcs,groupF,HEH,FU,3,CD19+ ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_CD3+_MAIT Zellen.fcs,groupF,HEH,FU,3,CD3+ MAIT Zellen,HEH-FU,groupF
+"export_Broadpanel_HEH-FU_003_CD56-, HLADr+_DCs.fcs",groupF,HEH,FU,3,"CD56-, HLADr+ DCs",HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_NK bright.fcs,groupF,HEH,FU,3,NK bright ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_NK dim.fcs,groupF,HEH,FU,3,NK dim ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_non DCs.fcs,groupF,HEH,FU,3,non DCs ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_non LD-.fcs,groupF,HEH,FU,3,non LD- ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_non MAIT Zellen_gd T-Zellen.fcs,groupF,HEH,FU,3,non MAIT Zellen gd T-Zellen,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_non NK.fcs,groupF,HEH,FU,3,non NK ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_non single cells.fcs,groupF,HEH,FU,3,non single cells ,HEH-FU,groupF
+"export_Broadpanel_HEH-FU_003_Q2 CD8+ , CD4+.fcs",groupF,HEH,FU,3,"Q2 CD8+ , CD4+ ",HEH-FU,groupF
+"export_Broadpanel_HEH-FU_003_Q4 CD8- , CD4-.fcs",groupF,HEH,FU,3,"Q4 CD8- , CD4- ",HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_T-Helferzellen.fcs,groupF,HEH,FU,3,T-Helferzellen ,HEH-FU,groupF
+export_Broadpanel_HEH-FU_003_zytotoxische T-Zellen.fcs,groupF,HEH,FU,3,zytotoxische T-Zellen ,HEH-FU,groupF
+export_Broadpanel_HEH-TS_001_CD14+.fcs,groupF,HEH,TS,1,CD14+ ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_CD19+.fcs,groupF,HEH,TS,1,CD19+ ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_CD3+_MAIT Zellen.fcs,groupF,HEH,TS,1,CD3+ MAIT Zellen,HEH-TS,groupF
+"export_Broadpanel_HEH-TS_001_CD56-, HLADr+_DCs.fcs",groupF,HEH,TS,1,"CD56-, HLADr+ DCs",HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_NK bright.fcs,groupF,HEH,TS,1,NK bright ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_NK dim.fcs,groupF,HEH,TS,1,NK dim ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_non DCs.fcs,groupF,HEH,TS,1,non DCs ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_non LD-.fcs,groupF,HEH,TS,1,non LD- ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_non MAIT Zellen_gd T-Zellen.fcs,groupF,HEH,TS,1,non MAIT Zellen gd T-Zellen,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_non NK.fcs,groupF,HEH,TS,1,non NK ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_non single cells.fcs,groupF,HEH,TS,1,non single cells ,HEH-TS,groupF
+"export_Broadpanel_HEH-TS_001_Q2 CD8+ , CD4+.fcs",groupF,HEH,TS,1,"Q2 CD8+ , CD4+ ",HEH-TS,groupF
+"export_Broadpanel_HEH-TS_001_Q4 CD8- , CD4-.fcs",groupF,HEH,TS,1,"Q4 CD8- , CD4- ",HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_T-Helferzellen.fcs,groupF,HEH,TS,1,T-Helferzellen ,HEH-TS,groupF
+export_Broadpanel_HEH-TS_001_zytotoxische T-Zellen.fcs,groupF,HEH,TS,1,zytotoxische T-Zellen ,HEH-TS,groupF
+export_Broadpanel_HEKH-EOT_011_CD14+.fcs,groupF,HEKH,EOT,11,CD14+ ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_CD19+.fcs,groupF,HEKH,EOT,11,CD19+ ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_CD3+_MAIT Zellen.fcs,groupF,HEKH,EOT,11,CD3+ MAIT Zellen,HEKH-EOT,groupF
+"export_Broadpanel_HEKH-EOT_011_CD56-, HLADr+_DCs.fcs",groupF,HEKH,EOT,11,"CD56-, HLADr+ DCs",HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_NK bright.fcs,groupF,HEKH,EOT,11,NK bright ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_NK dim.fcs,groupF,HEKH,EOT,11,NK dim ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_non DCs.fcs,groupF,HEKH,EOT,11,non DCs ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_non LD-.fcs,groupF,HEKH,EOT,11,non LD- ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_non MAIT Zellen_gd T-Zellen.fcs,groupF,HEKH,EOT,11,non MAIT Zellen gd T-Zellen,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_non NK.fcs,groupF,HEKH,EOT,11,non NK ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_non single cells.fcs,groupF,HEKH,EOT,11,non single cells ,HEKH-EOT,groupF
+"export_Broadpanel_HEKH-EOT_011_Q2 CD8+ , CD4+.fcs",groupF,HEKH,EOT,11,"Q2 CD8+ , CD4+ ",HEKH-EOT,groupF
+"export_Broadpanel_HEKH-EOT_011_Q4 CD8- , CD4-.fcs",groupF,HEKH,EOT,11,"Q4 CD8- , CD4- ",HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_T-Helferzellen.fcs,groupF,HEKH,EOT,11,T-Helferzellen ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-EOT_011_zytotoxische T-Zellen.fcs,groupF,HEKH,EOT,11,zytotoxische T-Zellen ,HEKH-EOT,groupF
+export_Broadpanel_HEKH-FU_012_CD14+.fcs,groupF,HEKH,FU,12,CD14+ ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_CD19+.fcs,groupF,HEKH,FU,12,CD19+ ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_CD3+_MAIT Zellen.fcs,groupF,HEKH,FU,12,CD3+ MAIT Zellen,HEKH-FU,groupF
+"export_Broadpanel_HEKH-FU_012_CD56-, HLADr+_DCs.fcs",groupF,HEKH,FU,12,"CD56-, HLADr+ DCs",HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_NK bright.fcs,groupF,HEKH,FU,12,NK bright ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_NK dim.fcs,groupF,HEKH,FU,12,NK dim ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_non DCs.fcs,groupF,HEKH,FU,12,non DCs ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_non LD-.fcs,groupF,HEKH,FU,12,non LD- ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_non MAIT Zellen_gd T-Zellen.fcs,groupF,HEKH,FU,12,non MAIT Zellen gd T-Zellen,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_non NK.fcs,groupF,HEKH,FU,12,non NK ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_non single cells.fcs,groupF,HEKH,FU,12,non single cells ,HEKH-FU,groupF
+"export_Broadpanel_HEKH-FU_012_Q2 CD8+ , CD4+.fcs",groupF,HEKH,FU,12,"Q2 CD8+ , CD4+ ",HEKH-FU,groupF
+"export_Broadpanel_HEKH-FU_012_Q4 CD8- , CD4-.fcs",groupF,HEKH,FU,12,"Q4 CD8- , CD4- ",HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_T-Helferzellen.fcs,groupF,HEKH,FU,12,T-Helferzellen ,HEKH-FU,groupF
+export_Broadpanel_HEKH-FU_012_zytotoxische T-Zellen.fcs,groupF,HEKH,FU,12,zytotoxische T-Zellen ,HEKH-FU,groupF
+export_Broadpanel_HEKH-TS_010_CD14+.fcs,groupF,HEKH,TS,10,CD14+ ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_CD19+.fcs,groupF,HEKH,TS,10,CD19+ ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_CD3+_MAIT Zellen.fcs,groupF,HEKH,TS,10,CD3+ MAIT Zellen,HEKH-TS,groupF
+"export_Broadpanel_HEKH-TS_010_CD56-, HLADr+_DCs.fcs",groupF,HEKH,TS,10,"CD56-, HLADr+ DCs",HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_NK bright.fcs,groupF,HEKH,TS,10,NK bright ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_NK dim.fcs,groupF,HEKH,TS,10,NK dim ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_non DCs.fcs,groupF,HEKH,TS,10,non DCs ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_non LD-.fcs,groupF,HEKH,TS,10,non LD- ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_non MAIT Zellen_gd T-Zellen.fcs,groupF,HEKH,TS,10,non MAIT Zellen gd T-Zellen,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_non NK.fcs,groupF,HEKH,TS,10,non NK ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_non single cells.fcs,groupF,HEKH,TS,10,non single cells ,HEKH-TS,groupF
+"export_Broadpanel_HEKH-TS_010_Q2 CD8+ , CD4+.fcs",groupF,HEKH,TS,10,"Q2 CD8+ , CD4+ ",HEKH-TS,groupF
+"export_Broadpanel_HEKH-TS_010_Q4 CD8- , CD4-.fcs",groupF,HEKH,TS,10,"Q4 CD8- , CD4- ",HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_T-Helferzellen.fcs,groupF,HEKH,TS,10,T-Helferzellen ,HEKH-TS,groupF
+export_Broadpanel_HEKH-TS_010_zytotoxische T-Zellen.fcs,groupF,HEKH,TS,10,zytotoxische T-Zellen ,HEKH-TS,groupF

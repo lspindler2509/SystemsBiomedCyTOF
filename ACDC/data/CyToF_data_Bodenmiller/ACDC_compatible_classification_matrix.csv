@@ -1,0 +1,12 @@
+Cell Type,LD,CD19,CD161,CD4,CD8,HLA-DR,CD14,CD3,CD11c,CD69,CD56,CD16,VA72,GDTCR
+tote Zellen,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+B-Zellen,-1,1,0,-1,-1,0,-1,-1,0,0,0,0,0,0
+Monozyten,-1,-1,0,-1,-1,0,1,-1,0,0,0,0,0,0
+Mait-Zellen,-1,-1,1,0,0,0,-1,1,0,0,0,0,1,0
+CD4 subpopulation: konventionelle CD4 Zellen,0,0,1,1,0,0,0,1,0,0,0,0,1,0
+T-Helferzelle,-1,-1,0,1,-1,0,-1,1,0,0,0,0,0,0
+cytotoxische T-Zelle,-1,-1,0,-1,1,0,-1,1,0,0,0,0,0,0
+gd- T-Zellen,-1,-1,0,0,0,0,-1,1,0,0,0,0,0,1
+NK-Zellen dim,-1,-1,0,0,0,0,-1,-1,0,0,1,0,0,0
+NK-Zellen bright,-1,-1,0,0,0,0,-1,-1,0,0,1,0,0,0
+Dendritische Zellen,-1,-1,0,0,0,1,-1,-1,1,0,-1,0,0,0
