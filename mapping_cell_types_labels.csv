@@ -7,11 +7,16 @@ Mait cells,CD3+ MAIT Zellen,MAIT
 Monocytes,CD14+,Monocytes
 NK cells,NK bright,NK cells
 NK cells,NK dim,NK cells
-Unclassified,"Q2 CD8+ , CD4+ ",
-Unclassified,"Q4 CD8- , CD4- ",
+NK cells,NK-Zellen bright,NK-Zellen bright
+NK cells,NK-Zellen dim,NK-Zellen dim
+Unclassified,"Q2 CD8+ , CD4+ ","Q2 CD8+ , CD4+"
+Unclassified,"Q4 CD8- , CD4- ","Q4 CD8- , CD4-"
 dead cells,non LD-,Dead
 gd T cells,non MAIT Zellen gd T-Zellen,gd T cells
-Unclassified,non DCs,
-Unclassified,non NK,
-Unclassified,non single cells,
-Unclassified,,Unclassified
+Unclassified,non DCs,non DCs
+Unclassified,unknown,unknown
+Unclassified,non NK,non NK
+Unclassified,non single cells,non single cells
+Mait cells,Mait cells,Mait cells
+dead cells,dead cells,dead cells
+Dendritic cells,Dendritische Zellen,Dendritische Zellen
