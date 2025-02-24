@@ -1,0 +1,178 @@
+---
+title: "SysBio_Cycadas"
+author: "Timo Reim"
+date: "`r Sys.Date()`"
+output: html_document
+
+---
+
+
+```{r}
+library(SingleCellExperiment)
+library(CATALYST)
+```
+
+
+```{r}
+#run with all as type markers
+rowData(sce)$marker_class <- "type"
+saveRDS(sce, "sce.rds")
+```
+
+```{r}
+#just cd11c additional type marker
+rd <- rowData(sce)
+rd$marker_class[rd$marker_name == "CD11c"] <- "type"
+rd$marker_class[rd$marker_name == "CD69"] <- "state"
+rd$marker_class[rd$marker_name == "CD16"] <- "state"
+rowData(sce) <- rd
+saveRDS(sce, "sce.rds")
+```
+
+
+```{r preprocessing}
+#cluster data
+clustered_sce <- cluster(sce, features = "type",   
+               xdim = 20, ydim = 20, maxK = 50, 
+               verbose = TRUE, seed = 1)
+saveRDS(clustered_sce, "clustered_sce.rds")
+```
+
+
+```{r}
+#read cycadas2 package
+library(cycadas2)
+trace("cycadas2", edit = TRUE)
+options(shiny.maxRequestSize = 10000*1024^2) #always
+options(shiny.error = browser) #attempt to debug, did not help
+```
+
+
+```{r}
+library(cycadas2) #reload
+```
+
+```{r}
+cycadas2()
+```
+
+```{r}
+#read results, order and save
+ann_sce = readRDS("Annotated_sce_CD56_negative_forBcells.rds")
+cell_to_type_assignment = metadata(ann_sce)$cluster_codes
+cell_to_type_assignment = cell_to_type_assignment$merging_som400
+cell_to_type_df = as.data.frame(cell_to_type_assignment)
+cell_to_type_df$cluster_id = rownames(cell_to_type_df)
+
+#write.csv(cell_to_type_df, "cell_to_type_df.csv", row.names = FALSE, col.names = FALSE)
+
+cluster_labels <- colData(ann_sce)$cluster_id
+cluster_frequencies <- table(cluster_labels)
+
+cluster_frequencies_df <- as.data.frame(cluster_frequencies)
+colnames(cluster_frequencies_df) <- c("cluster_id", "Frequency")
+
+celltype_map_freq <- merge(cell_to_type_df, cluster_frequencies_df, by= "cluster_id")
+
+expanded_cell_types <- rep(celltype_map_freq$cell_to_type_assignment, celltype_map_freq$Frequency)
+cellwise_assignement_df <- data.frame(cell_to_type_assignment = expanded_cell_types)
+
+cd = as.data.frame(colData(ann_sce))
+cd$cell_id = row.names(cd)
+merged_coldata_celltype_assignment <- merge(cd, cell_to_type_df, by = "cluster_id", all.x = TRUE, sort = FALSE)
+merged_coldata_celltype_assignment_ordered <- merged_coldata_celltype_assignment[order(as.numeric(as.character(merged_coldata_celltype_assignment$cell_id))),]
+
+#write.csv(cellwise_assignement_df, "cellwise_assignement_df.csv", row.names = FALSE, col.names = FALSE)
+```
+
+```{r}
+write.csv(merged_coldata_celltype_assignment_ordered$cell_to_type_assignment, "cellwise_assignement_df_ordered_CD56-.csv", row.names = FALSE, col.names = FALSE)
+```
+
+
+```{r}
+#plot results
+library(dplyr)
+library(ggplot2)
+celltype_summary <- celltype_map_freq %>%
+  group_by(cell_to_type_assignment) %>%
+  summarise(Total_Frequency = sum(Frequency)) %>%
+  mutate(Proportion = Total_Frequency / sum(Total_Frequency))
+
+proportion_plot <- ggplot(celltype_summary, aes(x = reorder(cell_to_type_assignment, -Proportion), 
+                                                y = Proportion, fill = cell_to_type_assignment)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Proportion of Cells by Type",
+    x = "Cell Type",
+    y = "Proportion",
+    fill = "Cell Type"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(proportion_plot)
+ggsave("proportion_plot.png", plot = proportion_plot, width = 8, height = 6, dpi = 300)
+```
+
+```{r}
+absolute_count_plot <- ggplot(celltype_summary, aes(x = reorder(cell_to_type_assignment, -Total_Frequency), 
+                                                    y = Total_Frequency, fill = cell_to_type_assignment)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Absolute Number of Cells by Type",
+    x = "Cell Type",
+    y = "Total Cell Count",
+    fill = "Cell Type"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(absolute_count_plot)
+```
+
+
+```{r}
+hist(cluster_frequencies, col = "skyblue", main = "Cluster Sizes", xlab = "Cells per cluster")
+
+# Calculate the mean
+mean_value <- mean(cluster_frequencies)
+
+# Add a vertical line at the mean
+abline(v = mean_value, col = "red", lwd = 2)
+
+# Add a label for the mean value next to the line
+text(x = mean_value, 
+     y = max(hist(cluster_frequencies, plot = FALSE)$counts) * 0.9, # Adjust height
+     labels = paste("Mean =", round(mean_value, 2)),
+     col = "red",
+     pos = 4)  # pos = 4 means label will be to the right of the line
+
+```
+
+
+unused
+```{r reduce using catalyst}
+sce_subset = filterSCE(sce, condition == "Ref", !sample_id %in% c("Ref1","Ref2","Ref3","Ref4","Ref5", "Ref7", "BCRXL1","BCRXL2","BCRXL3","BCRXL4"))
+sce_subset@metadata$SOM <- NULL
+saveRDS(sce_subset, "data/subset_sce.rds")
+```
+```{r cleanng sce/reducing size}
+#subset_size <- 50000
+#sce_reduced <- sce[, 1:subset_size]
+assays(sce_reduced) <- assays(sce_reduced)["counts"]
+#rowData(sce_reduced) <- NULL
+#colData(sce_reduced) <- NULL
+#colData
+#sce_reduced@int_elementMetadata <- DataFrame()
+#sce_reduced@int_colData <- DataFrame()
+sce_reduced@int_colData <- head(sce_reduced@int_colData, subset_size)
+#sce_reduced@int_metadata <- list()
+#sce_reduced@colData <- DataFrame()
+sce_reduced@colData <- head(sce_reduced@colData, subset_size)
+#sce_reduced@metadata <- list()
+sce_reduced@metadata$SOM <- NULL
+#sce_reduced@elementMetadata <- DataFrame()
+saveRDS(sce_reduced, "data/sce_reduced.rds")
+```
+
