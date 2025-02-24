@@ -1,0 +1,43 @@
+Package: cycadas2
+Title: Cluster Annotation
+Version: 0.1
+Authors@R: 
+    person("Oliver", "Hunewald", , "oliver.hunewald@lih.lu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`
+Depends: R (>= 4.3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0), CATALYST, SingleCellExperiment
+Config/testthat/edition: 3
+StagedInstall: no
+Imports: 
+    Ckmeans.1d.dp,
+    dplyr,
+    DT,
+    ggplot2,
+    glue,
+    matrixStats,
+    pheatmap,
+    purrr,
+    RColorBrewer,
+    shiny,
+    shinydashboard,
+    shinyWidgets,
+    stats,
+    umap,
+    visNetwork,
+    reshape2,
+    mousetrap,
+    knitr,
+    mixtools,
+    forcats,
+    shinyjs,
+    cluster,
+    mclust,
+    ggsignif,
+    markdown
+LazyData: true
