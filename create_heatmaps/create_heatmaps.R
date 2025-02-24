@@ -5,7 +5,7 @@ library(pheatmap)
 library(RColorBrewer)
 
 
-filepath <- "create_heatmaps/metrics_all_against_all_original_with_weighted_no_intersection" # file with computed metric scores
+filepath <- "create_heatmaps/metrics_all_against_all_original_with_weighted_no_intersection.csv" # file with computed metric scores
 metrics_all <- fread(filepath)
 
 # modify metrics df
@@ -45,11 +45,12 @@ create_heatmap_for_metric <- function(filt, df, metric, dir, clust=FALSE) {
 }
 
 metric_list <- c("ACC", "F1", "ARI", "kappa", "F1_weighted", "ACC_weighted")
+metric_list <- c("F1", "ARI", "kappa", "F1_weighted", "ACC_weighted")
 
 # create output directories
-dir.create(file.path("create_heatmaps/heatmaps_clustered"))
-dir.create(file.path("create_heatmaps/heatmaps"))
+dir.create(file.path("create_heatmaps/heatmaps_new_clustered"))
+dir.create(file.path("create_heatmaps/heatmaps_new"))
 
 # save heatmaps (clustered and not clustered) in files
-lapply(metric_list, function(metric) lapply(unique(metrics_all2$data_matrix), create_heatmap_for_metric, metrics_all2, metric, "create_heatmaps/heatmaps_clustered", TRUE))
-lapply(metric_list, function(metric) lapply(unique(metrics_all2$data_matrix), create_heatmap_for_metric, metrics_all2, metric, "create_heatmaps/heatmaps"))
+lapply(metric_list, function(metric) lapply(unique(metrics_all2$data_matrix), create_heatmap_for_metric, metrics_all2, metric, "create_heatmaps/heatmaps_new_clustered", TRUE))
+lapply(metric_list, function(metric) lapply(unique(metrics_all2$data_matrix), create_heatmap_for_metric, metrics_all2, metric, "create_heatmaps/heatmaps_new"))
