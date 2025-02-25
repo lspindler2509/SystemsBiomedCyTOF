@@ -5,7 +5,7 @@ library(pheatmap)
 library(RColorBrewer)
 
 
-filepath <- "create_heatmaps/metrics_all_against_all_original_with_weighted_no_intersection.csv" # file with computed metric scores
+filepath <- "metrics_all_against_all_based_on_results_folder/metrics_all_against_all_original_with_weighted_no_intersection.csv" # file with computed metric scores
 metrics_all <- fread(filepath)
 
 # modify metrics df

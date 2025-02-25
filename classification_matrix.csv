@@ -1,0 +1,10 @@
+Cell Type,LD,CD3,CD4,CD8,GDTCR,VA72,CD19,CD14,CD56,CD161,HLA-DR,CD11c,CD69,CD16
+Dead,+,A,A,A,A,A,A,A,A,A,A,A,A,A
+T helper cells,A,+,+,-,A,A,-,-,A,A,A,A,A,A
+Cytotoxic T cells,A,+,-,+,A,A,-,-,A,A,A,A,A,A
+gd T cells,A,+,A,A,+,A,-,-,A,A,A,A,A,A
+MAIT,A,+,A,A,A,+,-,-,A,+,A,A,A,A
+B cells,A,-,-,-,A,A,+,A,A,A,A,A,A,A
+Monocytes,A,-,-,-,A,A,A,+,A,A,A,A,A,A
+NK cells,A,-,A,A,A,A,A,A,+,A,A,A,A,A
+Dendritic cells,A,-,A,A,A,A,A,A,A,A,+,+,A,A
