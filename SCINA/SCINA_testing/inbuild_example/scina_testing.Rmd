@@ -1,0 +1,93 @@
+---
+title: "Testing SCINA"
+author: "R. Ellenrieder"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+#install.packages('SCINA')
+library('SCINA')
+```
+# data
+from github inst/extdata
+
+# input
+
+at least two input data matrices
+1. normalized (and/or log transformed) matrix representing the gene expression levels (columns - cells, rows - genes/proteins)
+2. list with signature vectors (vector - prior knowledge for one cell type: genes/proteins with high degree of detection) [We suggest that keep the number of genes in each signature list 10 to 50 to achieve the best performance of SCINA.]
+
+`preprocess.signatures(file_path)` --> function to convert signatures uploaded via .csv files to lists used by SCINA
+
+```{r}
+exp <- read.csv('extdata/example_expmat.csv',row.names=1,stringsAsFactors = F)
+signatures <- preprocess.signatures('extdata/example_signatures.csv')
+```
+
+# standard pre-processing workflow
+- pre-process scRNA-seq raw counts with package 'preprocessCore'
+- log-transform data to avoid heavy-tailed datasets
+
+```{r eval=F}
+#Install preprocessCore if required
+source("http://bioconductor.org/biocLite.R")
+biocLite("preprocessCore")
+library('preprocessCore')
+#Read data
+exp_raw=read.csv('your/path/to/raw/expression_matrix.csv',row.names=1,stringsAsFactors = F)
+#Log scale and quantile normalization
+exp_raw=log(exp_raw+1)
+exp[]=normalize.quantiles(exp_raw)
+```
+
+# Set model parameters
+
+- max_iter
+- convergence_n
+- convergence_rate
+- sensitivity_cutoff
+- rm_overlap --> TRUE: If all of the genes in one or more signatures are overlapped with other signatures in the same list
+- allow_unknown --> TRUE: If unclassified cells in the result are more than your expectation, and your aim is not seaching for rare cell types
+- log_file
+
+# Predict cell types with SCINA
+
+function: `SCINA(exp, signatures, max_iter = 100, convergence_n = 10, convergence_rate = 0.99, sensitivity_cutoff = 1, rm_overlap = 1, allow_unknown = 1, log_file = "SCINA.log")`
+
+returns:
+- cell_labels: vector containing the cell type predictions for each cell
+- probabilities: probability matrix indicating the predicted probability for each cell belonging to each cell type, respectively
+
+```{r}
+results = SCINA(exp, signatures, max_iter = 100, convergence_n = 10, 
+    convergence_rate = 0.999, sensitivity_cutoff = 0.9, rm_overlap=TRUE, allow_unknown=TRUE, log_file='SCINA.log')
+
+table(results$cell_labels)
+```
+
+# Result visualization
+
+plot SCINA results in a heatmap: `plotheat.SCINA(exp, results, signatures)`
+
+```{r}
+plotheat.SCINA(exp, results, signatures)
+```
+
+
+# Summary
+
+package includes 3 functions:
+- preprocess.signatures
+- SCINA
+- plothead.SCINA
+
+
+
+
+
+
+
+
+
+

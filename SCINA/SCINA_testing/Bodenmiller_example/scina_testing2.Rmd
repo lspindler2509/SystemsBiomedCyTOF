@@ -1,0 +1,49 @@
+---
+title: "Testing SCINA with our example data"
+author: "R. Ellenrieder"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library('SCINA')
+library(data.table)
+```
+# input data
+
+## matrix
+```{r}
+meta <- fread("Bodenmiller_Experiment/metadata.csv")
+panel <- fread("Bodenmiller_Experiment/panel.csv")
+
+
+library(CATALYST)
+
+(sce <- prepData("Bodenmiller_Experiment/fcs_files", panel, meta))
+exp_ma <- assay(sce, "exprs")
+```
+
+## input signatures
+
+```{r}
+signs <- preprocess.signatures("signs.csv")
+```
+
+
+# Predict cell types with SCINA
+
+function: `SCINA(exp, signatures, max_iter = 100, convergence_n = 10, convergence_rate = 0.99, sensitivity_cutoff = 1, rm_overlap = 1, allow_unknown = 1, log_file = "SCINA.log")`
+
+```{r}
+results2 = SCINA(exp_ma, signs, max_iter = 100, convergence_n = 10, 
+    convergence_rate = 0.99, sensitivity_cutoff = 0.9, rm_overlap=F, allow_unknown=TRUE)
+
+table(results2$cell_labels)
+```
+
+# Result visualization
+
+```{r}
+#plotheat.SCINA(exp_ma, results2, signs)
+```
+
